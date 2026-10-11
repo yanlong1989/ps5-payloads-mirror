@@ -1,50 +1,112 @@
-name: Automated Payloads Mirror
+name: Hourly Payloads Mirror
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Daily at midnight UTC
-  workflow_dispatch: # Manual trigger
+    - cron: '17 * * * *' # Hourly, away from the top-of-hour queue.
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: 'Optional exact payload name; leave empty for a full sync'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'update_payloads.py'
+      - 'add_payload.py'
+      - 'payloads.json'
+      - 'tests/**'
+      - '.github/workflows/update_mirror.yml'
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: payload-mirror-${{ github.repository }}
+  cancel-in-progress: false
 
 jobs:
   update-mirror:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Repository
+      - name: Checkout default branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
-      - name: Run Payloads Update Script
+      - name: Verify end-to-end behavior
+        run: python tests/e2e_mirror.py
+
+      - name: Restore release API cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/
+          key: release-api-${{ runner.os }}-${{ hashFiles('update_payloads.py') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            release-api-${{ runner.os }}-${{ hashFiles('update_payloads.py') }}-
+
+      - name: Download, verify, and publish changed payloads
+        id: sync
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAYLOAD_NAME: ${{ inputs.payload }}
+          MIRROR_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          python update_payloads.py
+          args=(--publish)
+          if [[ -n "$PAYLOAD_NAME" ]]; then
+            args+=("$PAYLOAD_NAME")
+          fi
+          python update_payloads.py "${args[@]}"
 
-      - name: Create and Update payloads-mirror Release
+      - name: Commit successfully published metadata
+        if: always() && steps.sync.outcome != 'skipped'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MIRROR_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          # Create release if it doesn't exist
-          gh release create payloads-mirror --title "Payloads Mirror" --notes "Automated mirror of payloads." || true
-
-          # Upload all payload binaries
-          if [ -d "payloads" ] && [ "$(ls -A payloads)" ]; then
-            echo "Uploading payloads to release..."
-            gh release upload payloads-mirror payloads/* --clobber
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add payloads.json README.md
+          for metadata in SHA256SUMS mirror-health.json; do
+            if [[ -f "$metadata" ]]; then
+              git add "$metadata"
+            fi
+          done
+          if git diff --cached --quiet; then
+            echo "No metadata changes."
           else
-            echo "No payloads to upload."
+            git commit -m "Update verified payload mirror"
+            git push origin "HEAD:$MIRROR_BRANCH"
           fi
 
-      - name: Commit and Push payloads.json
+      - name: Save release API cache
+        if: always() && steps.sync.outcome != 'skipped'
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/
+          key: release-api-${{ runner.os }}-${{ hashFiles('update_payloads.py') }}-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Save sync and end-to-end evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mirror-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/*.json
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Report upstream or publication failures
+        if: always() && steps.sync.outcome == 'failure'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add payloads.json README.md download_stats.json
-          git commit -m "Auto-update payloads.json metadata" || echo "No changes to commit"
-          git push
+          echo "At least one payload failed. Previously valid metadata was retained; see the evidence artifact."
+          exit 1

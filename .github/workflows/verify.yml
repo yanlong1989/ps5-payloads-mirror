@@ -1,0 +1,35 @@
+name: Verify Mirror
+
+on:
+  pull_request:
+    paths: ['**.py', 'tests/**', '.github/workflows/**']
+  push:
+    branches: [main]
+    paths: ['**.py', 'tests/**', '.github/workflows/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  end-to-end:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify real CLI against local upstream and release APIs
+        run: python tests/e2e_mirror.py
+      - name: Save repeatable evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-evidence-${{ matrix.os }}-${{ github.run_attempt }}
+          path: reports/e2e-report.json
+          retention-days: 14
