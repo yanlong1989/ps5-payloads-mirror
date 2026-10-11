@@ -58,7 +58,8 @@
     "last_update": "2026-10-10",
     "version": "1.7-beta5fix1",
     "category": "Utilities & Tools",
-    "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5"
+    "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
+    "include_prereleases": true
   },
   {
     "name": "WebKit-Autoloader-Installer",

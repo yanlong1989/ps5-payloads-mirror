@@ -1,2 +1,7 @@
 payloads/
 .DS_Store
+.cache/
+reports/
+__pycache__/
+*.pyc
+tools/

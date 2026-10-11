@@ -1,6 +1,34 @@
 # PS5 Payloads Mirror
 
-This repository contains an automated mirror of useful payloads for the PlayStation 5.
+基于 [itsPLK/ps5-payloads-mirror](https://github.com/itsPLK/ps5-payloads-mirror) 改进，每小时检查并同步上游发布的 PS5 payload。
+
+## 自动更新
+
+GitHub Actions 在每小时第 17 分钟检查上游，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。旧文件保留用于回退，同版本替换文件会使用带摘要的新文件名。失败项目保留原目录记录，运行报告列出原因。
+
+默认跟踪稳定版；ShadowMountPlus 也跟踪预发布版。可在 `payloads.json` 为其他项目设置 `include_prereleases: true`。`SHA256SUMS` 列出当前文件的校验值。
+
+GitHub 的定时运行可能延迟。成功完整检查后，每 28 天刷新健康记录，以保持仓库活动。
+
+## 使用与验证
+
+Fork 后先在 Actions 启用工作流，再运行 **Hourly Payloads Mirror**。只使用仓库自带的 `GITHUB_TOKEN`，无需另存个人令牌。
+
+```bash
+# 检查上游版本；不发布、不修改正式目录
+python update_payloads.py --dry-run
+
+# 下载并校验到 payloads/，拟定目录写入 reports/staged-payloads.json
+python update_payloads.py --download-only
+
+# 启动真实命令及本地 HTTP 服务，生成 reports/e2e-report.json
+python tests/e2e_mirror.py
+
+# 注册新来源；下一次云端同步验证并发布
+python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset-pattern '.*\.elf$'
+```
+
+支持 GitHub 和 Gitea Releases、明确的文件匹配规则和 ZIP 内文件选择。运行报告可从 Actions 的 artifacts 下载。
 
 ## Available Payloads
 
@@ -37,4 +65,4 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 
 ## Support & Suggestions
 
-If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/itsPLK/ps5-payloads-mirror/issues/new).
+原始项目及 payload 作者保留各自的贡献与权利。新增来源或修复同步规则可通过本仓库 Pull requests 提交。
