@@ -1,56 +1,96 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload_v7.0.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.1.elf",
+    "filename": "ps5upload_v7.0.8.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.8.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.1/ps5upload-7.0.1.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.8/ps5upload-7.0.8.elf",
     "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
     "last_update": "2026-10-11",
-    "version": "v7.0.1",
+    "version": "v7.0.8",
     "category": "Networking & Servers",
-    "checksum": "cf37ffb531a7dd56fb78d72eb01b5ec44fed40959504581a432b49a8d8352291"
+    "checksum": "085d27825a78bb2066c334506791e2a85e12240c0710db1e649e4bf15f8f4aa4",
+    "payload_size": 3293624,
+    "source_asset": {
+      "release_id": 409589510,
+      "id": 630419517,
+      "name": "ps5upload-7.0.8.elf",
+      "size": 3293624,
+      "updated_at": "2026-10-11T10:14:36Z",
+      "digest": "sha256:085d27825a78bb2066c334506791e2a85e12240c0710db1e649e4bf15f8f4aa4",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.8/ps5upload-7.0.8.elf"
+    }
   },
   {
     "name": "ps-patch-system",
     "filename": "ps-patch-system_38108724867.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps-patch-system_38108724867.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps-patch-system_38108724867.elf",
     "source": "https://github.com/illusionyy/ps-patch-system/releases",
     "source_direct": "https://github.com/illusionyy/ps-patch-system/releases/download/38108724867/patch-bundle-loader-prospero.elf",
     "description": "App patching system",
     "last_update": "2026-10-11",
     "version": "38108724867",
     "category": "Utilities & Tools",
-    "checksum": "10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589"
+    "checksum": "10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589",
+    "payload_size": 1794904,
+    "source_asset": {
+      "release_id": 409383928,
+      "id": 629673690,
+      "name": "patch-bundle-loader-prospero.elf",
+      "size": 1794904,
+      "updated_at": "2026-10-11T03:33:57Z",
+      "digest": "sha256:10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589",
+      "url": "https://github.com/illusionyy/ps-patch-system/releases/download/38108724867/patch-bundle-loader-prospero.elf"
+    }
   },
   {
     "name": "PKG-Manager",
     "filename": "PKG-Manager_v1.5.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf",
     "source": "https://github.com/itsPLK/ps5-pkg-manager/releases",
     "source_direct": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf",
     "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
     "last_update": "2026-10-10",
     "version": "v1.5.1",
     "category": "Utilities & Tools",
-    "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca"
+    "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
+    "payload_size": 1988168,
+    "source_asset": {
+      "release_id": 409037768,
+      "id": 628321729,
+      "name": "pkg-manager_v1.5.1.elf",
+      "size": 1988168,
+      "updated_at": "2026-10-10T15:38:09Z",
+      "digest": "sha256:82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
+      "url": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf"
+    }
   },
   {
     "name": "CheatRunner",
     "filename": "CheatRunner_v0.18.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.elf",
     "source": "https://github.com/notmaj0r/CheatRunner/releases",
     "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
     "description": "Web-based game cheat trainer",
     "last_update": "2026-10-10",
     "version": "v0.18",
     "category": "Utilities & Tools",
-    "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
+    "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
+    "payload_size": 8272800,
+    "source_asset": {
+      "release_id": 409110768,
+      "id": 628618191,
+      "name": "CheatRunner.elf",
+      "size": 8272800,
+      "updated_at": "2026-10-10T17:56:27Z",
+      "digest": "sha256:4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
+      "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf"
+    }
   },
   {
     "name": "ShadowMountPlus",
     "filename": "ShadowMountPlus_1.7-beta5fix1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
     "source": "https://github.com/drakmor/ShadowMountPlus/releases",
     "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/ShadowMountPlus_1.7-beta5fix1.zip",
     "extract_file": "shadowmountplus.elf",
@@ -59,48 +99,88 @@
     "version": "1.7-beta5fix1",
     "category": "Utilities & Tools",
     "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
-    "include_prereleases": true
+    "include_prereleases": true,
+    "payload_size": 2498376,
+    "source_asset": {
+      "release_id": 409132053,
+      "id": 628709201,
+      "name": "ShadowMountPlus_1.7-beta5fix1.zip",
+      "size": 1383110,
+      "updated_at": "2026-10-10T18:39:20Z",
+      "digest": "sha256:fb3b59c24d4d2cb556e5798fcd21cfbdf1fc56627e9fb843dc0fc0d6ef5bab8c",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/ShadowMountPlus_1.7-beta5fix1.zip"
+    }
   },
   {
     "name": "WebKit-Autoloader-Installer",
     "filename": "WebKit-Autoloader-Installer_v0.6.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
     "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
     "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
     "last_update": "2026-10-08",
     "version": "v0.6.1",
     "category": "Loaders",
-    "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f"
+    "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+    "payload_size": 3556608,
+    "source_asset": {
+      "release_id": 407023978,
+      "id": 622316529,
+      "name": "webkit-autoloader-installer_v0.6.1.elf",
+      "size": 3556608,
+      "updated_at": "2026-10-08T16:06:47Z",
+      "digest": "sha256:f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf"
+    }
   },
   {
     "name": "ps5-web-file-manager",
     "filename": "ps5-web-file-manager_v1.10.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
     "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
     "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
     "description": "A file manager for PS5 with a web UI",
     "last_update": "2026-10-05",
     "version": "v1.10",
     "category": "Utilities & Tools",
-    "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3"
+    "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
+    "payload_size": 460568,
+    "source_asset": {
+      "release_id": 403820776,
+      "id": 612830243,
+      "name": "web-file-mgr-v1.10.elf",
+      "size": 460568,
+      "updated_at": "2026-10-05T14:39:40Z",
+      "digest": "sha256:409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf"
+    }
   },
   {
     "name": "ps5-app-dumper",
     "filename": "ps5-app-dumper_v2.10.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.10.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.10.elf",
     "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
     "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
     "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
     "last_update": "2026-10-03",
     "version": "v2.10",
     "category": "Utilities & Tools",
-    "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
+    "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
+    "payload_size": 1410752,
+    "source_asset": {
+      "release_id": 402254310,
+      "id": 606846988,
+      "name": "ps5-app-dumper_v2.10.elf",
+      "size": 1410752,
+      "updated_at": "2026-10-03T01:10:12Z",
+      "digest": "sha256:c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
+      "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf"
+    }
   },
   {
     "name": "zftpd",
     "filename": "zftpd_v1.6.0.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
     "source": "https://github.com/seregonwar/zftpd/releases",
     "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
     "asset_pattern": "zhttp",
@@ -108,210 +188,390 @@
     "last_update": "2026-09-30",
     "version": "v1.6.0",
     "category": "Networking & Servers",
-    "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497"
+    "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
+    "payload_size": 19221056,
+    "source_asset": {
+      "release_id": 400348362,
+      "id": 601596865,
+      "name": "zftpd-ps5-zhttp-v1.6.0.elf",
+      "size": 19221056,
+      "updated_at": "2026-09-30T18:58:26Z",
+      "digest": "sha256:fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
+      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf"
+    }
   },
   {
     "name": "pldmgr",
     "filename": "pldmgr_v0.5.2.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.5.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.5.2.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
     "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
     "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
     "last_update": "2026-09-29",
     "version": "v0.5.2",
     "category": "Utilities & Tools",
-    "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c"
+    "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c",
+    "payload_size": 2410776,
+    "source_asset": {
+      "release_id": 399041379,
+      "id": 597943277,
+      "name": "pldmgr_v0.5.2.elf",
+      "size": 2410776,
+      "updated_at": "2026-09-29T10:34:21Z",
+      "digest": "sha256:62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf"
+    }
   },
   {
     "name": "ps5debug-NG",
     "filename": "ps5debug-NG_1.3.2.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
     "source": "https://github.com/Pharaoh2k/ps5debug-NG/releases",
     "source_direct": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
     "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
     "last_update": "2026-09-23",
     "version": "1.3.2",
     "category": "Utilities & Tools",
-    "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+    "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
+    "payload_size": 4059688,
+    "source_asset": {
+      "release_id": 394275399,
+      "id": 582852279,
+      "name": "ps5debug-NG_v1.3.2.elf",
+      "size": 4059688,
+      "updated_at": "2026-09-23T03:21:00Z",
+      "digest": "sha256:949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
+      "url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf"
+    }
   },
   {
     "name": "kstuff-lite",
     "filename": "kstuff-lite_v1.11.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
     "source": "https://github.com/EchoStretch/kstuff-lite/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
     "description": "Lite version of kstuff",
     "last_update": "2026-09-20",
     "version": "v1.11",
     "category": "System & Jailbreak",
-    "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
+    "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
+    "payload_size": 1737080,
+    "source_asset": {
+      "release_id": 392541028,
+      "id": 584760938,
+      "name": "kstuff.elf",
+      "size": 1737080,
+      "updated_at": "2026-09-23T23:29:37Z",
+      "digest": "sha256:ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
+      "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf"
+    }
   },
   {
     "name": "ftpsrv-drakmor",
     "filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
     "source": "https://github.com/drakmor/ftpsrv/releases",
     "source_direct": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf",
     "description": "drakmor's fork of ftpsrv",
     "last_update": "2026-09-20",
     "version": "1.16-ng-stable",
     "category": "Networking & Servers",
-    "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
+    "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
+    "payload_size": 230640,
+    "source_asset": {
+      "release_id": 392569658,
+      "id": 577536549,
+      "name": "ftpsrv-ps5.elf",
+      "size": 230640,
+      "updated_at": "2026-09-20T20:49:26Z",
+      "digest": "sha256:f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
+      "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf"
+    }
   },
   {
     "name": "garlic-savemgr",
     "filename": "garlic-savemgr_v1.13.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
     "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
     "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf",
     "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
     "last_update": "2026-09-19",
     "version": "v1.13.1",
     "category": "Utilities & Tools",
-    "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5"
+    "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
+    "payload_size": 1665456,
+    "source_asset": {
+      "release_id": 9816,
+      "id": 1449,
+      "name": "garlic-savemgr.elf",
+      "size": 1665456,
+      "updated_at": null,
+      "digest": null,
+      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf"
+    }
   },
   {
     "name": "onionHEN",
     "filename": "onionHEN_v0.0.13.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.0.13.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.0.13.elf",
     "source": "https://github.com/aydencharles/onionHEN/releases",
     "source_direct": "https://github.com/aydencharles/onionHEN/releases/download/v0.0.13/OnionHEN.elf",
     "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
     "last_update": "2026-09-11",
     "version": "v0.0.13",
     "category": "System & Jailbreak",
-    "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3"
+    "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3",
+    "payload_size": 4326024,
+    "source_asset": {
+      "release_id": 387194815,
+      "id": 557621057,
+      "name": "OnionHEN.elf",
+      "size": 4326024,
+      "updated_at": "2026-09-11T16:44:30Z",
+      "digest": "sha256:aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3",
+      "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.0.13/OnionHEN.elf"
+    }
   },
   {
     "name": "ps5-linux-loader",
     "filename": "ps5-linux-loader_v2.5.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
     "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
     "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
     "description": "Linux payload implementing HV exploits to run a custom bootloader",
     "last_update": "2026-09-05",
     "version": "v2.5",
     "category": "Loaders",
-    "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
+    "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
+    "payload_size": 180528,
+    "source_asset": {
+      "release_id": 383186975,
+      "id": 545702621,
+      "name": "ps5-linux-loader.elf",
+      "size": 180528,
+      "updated_at": "2026-09-05T10:38:58Z",
+      "digest": "sha256:9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
+      "url": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf"
+    }
   },
   {
     "name": "elfldr",
     "filename": "elfldr_v0.26.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
     "source": "https://github.com/ps5-payload-dev/elfldr/releases",
     "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
     "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
     "last_update": "2026-08-29",
     "version": "v0.26",
     "category": "Loaders",
-    "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1"
+    "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
+    "payload_size": 394480,
+    "source_asset": {
+      "release_id": 379053312,
+      "id": 535517260,
+      "name": "elfldr-ps5.elf",
+      "size": 394480,
+      "updated_at": "2026-08-29T17:31:19Z",
+      "digest": "sha256:ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
+      "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf"
+    }
   },
   {
     "name": "ftpsrv",
     "filename": "ftpsrv_v0.21.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
     "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf",
     "description": "A simple FTP server that accepts connections on port 2121",
     "last_update": "2026-08-20",
     "version": "v0.21.1",
     "category": "Networking & Servers",
-    "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
+    "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
+    "payload_size": 191864,
+    "source_asset": {
+      "release_id": 373896547,
+      "id": 522536065,
+      "name": "ftpsrv-ps5.elf",
+      "size": 191864,
+      "updated_at": "2026-08-20T17:02:49Z",
+      "digest": "sha256:7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
+      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf"
+    }
   },
   {
     "name": "BFpilot",
     "filename": "BFpilot_v0.4.4.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.4.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.4.elf",
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
     "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf",
     "description": "Lightweight PS5 file manager, browser based",
     "last_update": "2026-08-11",
     "version": "v0.4.4",
     "category": "Utilities & Tools",
-    "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
+    "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
+    "payload_size": 1810632,
+    "source_asset": {
+      "release_id": 368758763,
+      "id": 510464985,
+      "name": "bfpilot.elf",
+      "size": 1810632,
+      "updated_at": "2026-08-11T18:08:09Z",
+      "digest": "sha256:5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
+      "url": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf"
+    }
   },
   {
     "name": "nanoDNS",
     "filename": "nanoDNS_0.4.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
     "source": "https://github.com/drakmor/nanoDNS/releases",
     "source_direct": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns.elf",
     "description": "Local DNS proxy server",
     "last_update": "2026-08-04",
     "version": "0.4",
     "category": "Networking & Servers",
-    "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420"
+    "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
+    "payload_size": 132352,
+    "source_asset": {
+      "release_id": 365071805,
+      "id": 577444042,
+      "name": "nanodns.elf",
+      "size": 132352,
+      "updated_at": "2026-09-20T19:46:52Z",
+      "digest": "sha256:fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
+      "url": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns.elf"
+    }
   },
   {
     "name": "websrv",
     "filename": "websrv_v0.34.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
     "source": "https://github.com/ps5-payload-dev/websrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.34/websrv-ps5.elf",
     "description": "A simple web server that accepts connections on port 8080",
     "last_update": "2026-08-02",
     "version": "v0.34",
     "category": "Networking & Servers",
-    "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+    "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
+    "payload_size": 1597864,
+    "source_asset": {
+      "release_id": 363880643,
+      "id": 499223250,
+      "name": "websrv-ps5.elf",
+      "size": 1597864,
+      "updated_at": "2026-08-02T19:52:02Z",
+      "digest": "sha256:54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
+      "url": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.34/websrv-ps5.elf"
+    }
   },
   {
     "name": "shsrv",
     "filename": "shsrv_v0.20.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/shsrv_v0.20.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/shsrv_v0.20.elf",
     "source": "https://github.com/ps5-payload-dev/shsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/shsrv/releases/download/v0.20/shsrv-ps5.elf",
     "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
     "last_update": "2026-08-02",
     "version": "v0.20",
     "category": "Networking & Servers",
-    "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d"
+    "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
+    "payload_size": 986184,
+    "source_asset": {
+      "release_id": 363837681,
+      "id": 499078175,
+      "name": "shsrv-ps5.elf",
+      "size": 986184,
+      "updated_at": "2026-08-02T16:41:02Z",
+      "digest": "sha256:fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
+      "url": "https://github.com/ps5-payload-dev/shsrv/releases/download/v0.20/shsrv-ps5.elf"
+    }
   },
   {
     "name": "klogsrv",
     "filename": "klogsrv_v0.9.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/klogsrv_v0.9.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/klogsrv_v0.9.elf",
     "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps5.elf",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
     "last_update": "2026-08-02",
     "version": "v0.9",
     "category": "Networking & Servers",
-    "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
+    "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
+    "payload_size": 136016,
+    "source_asset": {
+      "release_id": 363837002,
+      "id": 499075903,
+      "name": "klogsrv-ps5.elf",
+      "size": 136016,
+      "updated_at": "2026-08-02T16:37:55Z",
+      "digest": "sha256:e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
+      "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps5.elf"
+    }
   },
   {
     "name": "Lapy-JB-Daemon",
     "filename": "Lapy-JB-Daemon_v1.2.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/Lapy-JB-Daemon_v1.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/Lapy-JB-Daemon_v1.2.elf",
     "source": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases",
     "source_direct": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf",
     "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
     "last_update": "2026-06-01",
     "version": "v1.2",
     "category": "System & Jailbreak",
-    "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e"
+    "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
+    "payload_size": 154280,
+    "source_asset": {
+      "release_id": 332691072,
+      "id": 435494167,
+      "name": "lapy_jb_daemon-v1.2.elf",
+      "size": 154280,
+      "updated_at": "2026-06-01T18:26:02Z",
+      "digest": "sha256:13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
+      "url": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf"
+    }
   },
   {
     "name": "BackPork",
     "filename": "BackPork_0.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
     "source": "https://github.com/BestPig/BackPork/releases",
     "source_direct": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
     "description": "Lets you sideload system libraries into PS5 games",
     "last_update": "2026-04-30",
     "version": "0.1",
     "category": "Utilities & Tools",
-    "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
+    "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
+    "payload_size": 99800,
+    "source_asset": {
+      "release_id": 315912401,
+      "id": 409202408,
+      "name": "ps5-backpork.elf",
+      "size": 99800,
+      "updated_at": "2026-04-30T16:35:11Z",
+      "digest": "sha256:d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
+      "url": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf"
+    }
   },
   {
     "name": "etaHEN",
     "filename": "etaHEN_2.5B.bin",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/etaHEN_2.5B.bin",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/etaHEN_2.5B.bin",
     "source": "https://github.com/etaHEN/etaHEN/releases",
     "source_direct": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
     "description": "AIO HEN payload",
     "last_update": "2025-12-25",
     "version": "2.5B",
     "category": "System & Jailbreak",
-    "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
+    "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
+    "payload_size": 4678728,
+    "source_asset": {
+      "release_id": 272764806,
+      "id": 332745950,
+      "name": "etaHEN-2.5B.bin",
+      "size": 4678728,
+      "updated_at": "2025-12-25T05:29:30Z",
+      "digest": "sha256:4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
+      "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
+    }
   }
 ]
