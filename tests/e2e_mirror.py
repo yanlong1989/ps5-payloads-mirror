@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import base64
 import io
 import json
 import os
@@ -35,6 +36,12 @@ class Service:
         self.fail_download = set()
         self.fail_upload = False
         self.exists = False
+        self.committed_catalog = []
+        self.catalog_reads = 0
+        self.change_catalog_after = None
+        self.delete_attempts = []
+        self.fail_delete = False
+        self.release_body = ""
         self.next_id = 100
         service = self
 
@@ -57,7 +64,15 @@ class Service:
                 path = parsed.path
                 service.hits[path] = service.hits.get(path, 0) + 1
                 if path == "/repos/test/mirror/releases/tags/payloads-mirror":
-                    self.respond(200, {"id": 1}) if service.exists else self.respond(404, {})
+                    self.respond(200, {"id": 1, "body": service.release_body}) if service.exists else self.respond(404, {})
+                elif path == "/repos/test/mirror/contents/payloads.json":
+                    service.catalog_reads += 1
+                    data = service.committed_catalog
+                    if service.change_catalog_after is not None and service.catalog_reads > service.change_catalog_after:
+                        data = []
+                    raw = json.dumps(data).encode()
+                    self.respond(200, {"encoding": "base64", "content": base64.b64encode(raw).decode(),
+                                       "sha": hashlib.sha1(raw).hexdigest()})
                 elif path == "/repos/test/mirror/releases/1/assets":
                     page = int(parse_qs(parsed.query).get("page", ["1"])[0])
                     assets = list(service.assets.values())
@@ -83,7 +98,8 @@ class Service:
                 body = self.rfile.read(int(self.headers.get("Content-Length", 0)))
                 if parsed.path == "/repos/test/mirror/releases":
                     service.exists = True
-                    self.respond(201, {"id": 1})
+                    service.release_body = json.loads(body).get("body", "")
+                    self.respond(201, {"id": 1, "body": service.release_body})
                 elif parsed.path == "/repos/test/mirror/releases/1/assets":
                     if service.fail_upload:
                         return self.respond(503, {"message": "upload unavailable"})
@@ -93,10 +109,33 @@ class Service:
                     service.next_id += 1
                     asset = {"id": service.next_id, "name": name, "size": len(body),
                              "digest": "sha256:" + hashlib.sha256(body).hexdigest(),
-                             "state": "uploaded"}
+                             "state": "uploaded", "uploader": {"login": "github-actions[bot]"}}
                     service.assets[name] = asset
                     service.files["/mirrored/" + name] = body
                     self.respond(201, asset)
+                else:
+                    self.respond(404, {})
+
+            def do_DELETE(self):
+                prefix = "/repos/test/mirror/releases/assets/"
+                if not self.path.startswith(prefix):
+                    return self.respond(404, {})
+                identity = int(self.path[len(prefix):])
+                found = next((asset for asset in service.assets.values() if asset["id"] == identity), None)
+                if not found:
+                    return self.respond(404, {})
+                service.delete_attempts.append(found["name"])
+                if service.fail_delete:
+                    return self.respond(403, {"message": "deletion forbidden"})
+                del service.assets[found["name"]]
+                service.files.pop("/mirrored/" + found["name"], None)
+                self.respond(204)
+
+            def do_PATCH(self):
+                body = self.rfile.read(int(self.headers.get("Content-Length", 0)))
+                if self.path == "/repos/test/mirror/releases/1":
+                    service.release_body = json.loads(body)["body"]
+                    self.respond(200, {"id": 1, "body": service.release_body})
                 else:
                     self.respond(404, {})
 
@@ -123,10 +162,10 @@ class Service:
         self.server.server_close()
 
 
-def run_cli(root, service, expected_code=0, extra=()):
+def run_cli(root, service, expected_code=0, extra=(), mode="--publish"):
     command = [sys.executable, str(PROJECT / "update_payloads.py"), "--root", str(root),
                "--repository", "test/mirror", "--api-base", service.url,
-               "--upload-base", service.url, "--allow-local-http", "--publish",
+               "--upload-base", service.url, "--allow-local-http", mode,
                "--retries", "2", "--retry-delay", "0", "--timeout", "2", *extra]
     environment = dict(os.environ)
     for key in ("GITHUB_STEP_SUMMARY", "GH_TOKEN", "GITHUB_TOKEN"):
@@ -136,7 +175,8 @@ def run_cli(root, service, expected_code=0, extra=()):
     if result.returncode != expected_code:
         raise AssertionError(f"exit={result.returncode}, expected={expected_code}\n"
                              f"{result.stdout}\n{result.stderr}")
-    report = json.loads((root / "reports/sync-report.json").read_text(encoding="utf-8"))
+    name = "prune-report.json" if mode in {"--prune", "--plan-prune"} else "sync-report.json"
+    report = json.loads((root / "reports" / name).read_text(encoding="utf-8"))
     return report
 
 
@@ -280,6 +320,64 @@ def main():
             report = run_cli(root, service, 1)
             assert report["unchanged"] == 1 and report["failed"] == 1
             evidence["scenarios"].append("mirror asset pagination with more than 100 retained binaries")
+
+            write_catalog(root, [entry("demo")])
+            service.releases["demo"] = [service.release(tag="latest", assets={"demo-ps5.elf": ELF + b"latest"})]
+            run_cli(root, service)
+            current = catalog(root)[0]
+            old = [asset for name, asset in service.assets.items() if name.startswith("demo_") and name != current["filename"]]
+            assert old
+            service.committed_catalog = []
+            before_delete = len(service.delete_attempts)
+            report = run_cli(root, service, 1, mode="--prune")
+            assert report["deleted"] == 0 and len(service.delete_attempts) == before_delete
+            evidence["scenarios"].append("cleanup refuses uncommitted catalog before deleting anything")
+
+            service.committed_catalog = catalog(root)
+            remote = service.assets[current["filename"]]
+            checksum = remote["digest"]
+            remote["digest"] = "sha256:" + "0" * 64
+            report = run_cli(root, service, 1, mode="--prune")
+            assert report["deleted"] == 0 and len(service.delete_attempts) == before_delete
+            remote["digest"] = checksum
+            evidence["scenarios"].append("cleanup refuses invalid current mirror bytes")
+
+            manual = "demo_manual.elf"
+            service.assets[manual] = {"id": 4000, "name": manual, "size": len(ELF),
+                "digest": "sha256:" + hashlib.sha256(ELF).hexdigest(), "state": "uploaded", "uploader": {"login": "human"}}
+            body_before = service.release_body
+            report = run_cli(root, service, mode="--plan-prune")
+            assert report["deleted"] == 0 and report["candidate_count"] == len(old)
+            assert service.release_body == body_before and len(service.delete_attempts) == before_delete
+            assert manual not in {asset["name"] for asset in report["candidates"]}
+            evidence["scenarios"].append("cleanup preview preserves manual uploads and unknown assets")
+
+            service.fail_delete = True
+            report = run_cli(root, service, 1, mode="--prune")
+            assert report["deleted"] == 0 and current["filename"] in service.assets
+            service.fail_delete = False
+            evidence["scenarios"].append("cleanup deletion failures preserve current files and fail visibly")
+
+            service.catalog_reads = 0
+            service.change_catalog_after = 1
+            before_delete = len(service.delete_attempts)
+            report = run_cli(root, service, 1, mode="--prune")
+            assert report["deleted"] == 0 and len(service.delete_attempts) == before_delete
+            service.change_catalog_after = None
+            evidence["scenarios"].append("cleanup stops if committed catalog changes after planning")
+
+            for index in range(105):
+                name = f"demo_old-{index}.elf"
+                service.assets[name] = {"id": 5000 + index, "name": name, "size": len(ELF),
+                    "digest": "sha256:" + hashlib.sha256(ELF).hexdigest(), "state": "uploaded", "uploader": {"login": "github-actions[bot]"}}
+            report = run_cli(root, service, mode="--prune")
+            assert report["deleted"] == len(old) + 105
+            assert manual in service.assets and current["filename"] in service.assets
+            assert not any(name.startswith("demo_") and name not in {manual, current["filename"]} for name in service.assets)
+            assert all(f"retained-{index}.elf" in service.assets for index in range(105))
+            report = run_cli(root, service, mode="--prune")
+            assert report["deleted"] == 0 and report["candidate_count"] == 0
+            evidence["scenarios"].append("committed latest-only cleanup handles pagination and repeated runs")
             evidence["passed"] = True
     except Exception as error:
         evidence["error"] = str(error)
