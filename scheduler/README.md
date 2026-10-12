@@ -11,6 +11,17 @@ An accepted dispatch is logged with its GitHub run ID. A failed dispatch raises
 an error in Cloudflare. The scheduler does not claim that GitHub finished the
 workflow merely because dispatch was accepted.
 
+## Verified deployment
+
+`ps5-mirror-scheduler.yanlong1989.workers.dev` is deployed with the hourly
+`7 * * * *` trigger. A natural hourly Cron event on 2026-10-12 at 10:07 UTC
+(18:07 Asia/Shanghai) dispatched
+[GitHub run 38234349086](https://github.com/yanlong1989/ps5-payloads-mirror/actions/runs/38234349086).
+The run succeeded, checked 26 sources, and reported no failures. Its 17 mirror
+end-to-end scenarios also passed. The temporary two-minute verification trigger
+was removed; the deployed trigger configuration contains only the hourly rule.
+The scheduler itself passed 13 local workerd end-to-end scenarios before deployment.
+
 ## Permissions and secrets
 
 Create a private GitHub App, with webhooks disabled and these permissions:
