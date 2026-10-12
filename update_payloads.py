@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 from copy import deepcopy
 from datetime import datetime, timezone
 import hashlib
@@ -25,6 +26,10 @@ MAX_BYTES = 128 * 1024 * 1024
 START = "<!-- PAYLOADS_START -->"
 END = "<!-- PAYLOADS_END -->"
 RETRY_CODES = {429, 500, 502, 503, 504}
+RELEASE_BODY = ("Verified payload mirror, checked hourly.\n\n"
+                "Current files and SHA-256 checksums are listed in payloads.json. "
+                "Each payload keeps its current version. Obsolete automated assets are removed "
+                "only after verified publication and a successful catalog commit.")
 
 
 def utc_now():
@@ -318,9 +323,8 @@ class Publisher:
         if self.release is None and publish:
             self.release = client.json(f"{self.base}/releases", method="POST", body={
                 "tag_name": TAG, "target_commitish": os.environ.get("MIRROR_BRANCH", "main"),
-                "name": "PS5 Payloads Mirror", "body": "Verified payload mirror, checked hourly.\n\n"
-                "Current files and SHA-256 checksums are listed in payloads.json. "
-                "Previous versions are retained for rollback.", "draft": False, "prerelease": False})
+                "name": "PS5 Payloads Mirror", "body": RELEASE_BODY,
+                "draft": False, "prerelease": False})
         self.assets = self.list_assets()
 
     def list_assets(self):
@@ -357,6 +361,105 @@ class Publisher:
             if recovered and asset_matches(recovered, checksum, path.stat().st_size):
                 return
             raise
+
+
+def committed_catalog(client, repository):
+    branch = os.environ.get("MIRROR_BRANCH", "main")
+    url = (f"{client.options.api_base}/repos/{repository}/contents/payloads.json?"
+           + urlencode({"ref": branch}))
+    data = client.json(url)
+    if data.get("encoding") != "base64" or not isinstance(data.get("content"), str):
+        raise ValueError("Committed catalog is unavailable")
+    return json.loads(base64.b64decode("".join(data["content"].split()), validate=True))
+
+
+def prune(options):
+    repository = repository_name(options.repository)
+    report = {"started_at": utc_now(), "repository": repository, "kind": "release-asset-cleanup",
+              "mode": "prune" if options.prune else "plan-prune", "protected": 0,
+              "candidate_count": 0, "candidates": [], "deleted": 0, "deleted_assets": [], "failed": 0}
+    try:
+        if options.target:
+            raise ValueError("Cleanup requires the complete catalog")
+        if options.prune and not (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")) and not options.allow_local_http:
+            raise ValueError("--prune requires a token with contents:write")
+        items = load_json(options.root / "payloads.json")
+        if not isinstance(items, list) or not items:
+            raise ValueError("A non-empty current catalog is required for cleanup")
+        client = HttpClient(options)
+        if committed_catalog(client, repository) != items:
+            raise ValueError("Local catalog differs from the committed catalog; cleanup refused")
+        publisher = Publisher(client, repository, False)
+        if not publisher.release:
+            raise ValueError("Mirror release does not exist")
+        names, protected, prefixes = set(), set(), set()
+        for item in items:
+            name, filename = item.get("name"), item.get("filename")
+            checksum, size = item.get("checksum"), item.get("payload_size")
+            if not name or name in names or not filename or filename in protected:
+                raise ValueError("Every catalog entry must have a unique current file")
+            prefix = safe_component(name) + "_"
+            if prefix in prefixes:
+                raise ValueError("Payload filename namespaces overlap")
+            remote = publisher.assets.get(filename)
+            if (not isinstance(checksum, str) or not re.fullmatch(r"[0-9a-f]{64}", checksum)
+                    or not isinstance(size, int) or size <= 0
+                    or item.get("url") != mirror_url(repository, filename)
+                    or not remote or not asset_matches(remote, checksum, size)
+                    or remote.get("digest") != "sha256:" + checksum):
+                raise ValueError(f"Current file is missing or unverified: {filename}")
+            names.add(name)
+            protected.add(filename)
+            prefixes.add(prefix)
+        report["protected"] = len(protected)
+        report["asset_count_before"] = len(publisher.assets)
+        candidates = [asset for filename, asset in publisher.assets.items()
+                      if filename not in protected
+                      and any(filename.startswith(prefix) for prefix in prefixes)
+                      and PurePosixPath(filename).suffix.lower() in {".elf", ".bin"}
+                      and asset.get("uploader", {}).get("login") == "github-actions[bot]"
+                      and type(asset.get("id")) is int and asset["id"] > 0]
+        candidates.sort(key=lambda asset: asset["name"])
+        report["candidates"] = [{key: asset.get(key) for key in ("id", "name", "size", "digest")}
+                                for asset in candidates]
+        report["candidate_count"] = len(candidates)
+        if options.prune:
+            for asset in candidates:
+                if committed_catalog(client, repository) != items:
+                    raise ValueError("Committed catalog changed during cleanup; remaining deletions stopped")
+                try:
+                    with client.request(f"{publisher.base}/releases/assets/{asset['id']}",
+                                        method="DELETE", api=True) as response:
+                        if response.status != 204:
+                            raise ValueError("Unexpected release asset deletion response")
+                except HTTPError as error:
+                    if error.code != 404:
+                        raise
+                    error.close()
+                report["deleted_assets"].append(asset["name"])
+                report["deleted"] += 1
+            if publisher.release.get("body") != RELEASE_BODY:
+                client.json(f"{publisher.base}/releases/{publisher.release['id']}", method="PATCH",
+                            body={"body": RELEASE_BODY})
+            remaining = publisher.list_assets()
+            if not protected.issubset(remaining):
+                raise ValueError("Current file inventory changed during cleanup")
+            report["asset_count_after"] = len(remaining)
+    except (ValueError, OSError, HTTPError, URLError, KeyError, TypeError, http.client.HTTPException) as error:
+        report["failed"] = 1
+        report["error"] = str(error)
+        print(f"Cleanup ERROR: {error}", flush=True)
+    report["finished_at"] = utc_now()
+    write_json(options.root / "reports/prune-report.json", report)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as output:
+            output.write(f"\n## Release cleanup\nCurrent files: {report['protected']} · "
+                         f"Candidates: {report['candidate_count']} · Removed: {report['deleted']} · "
+                         f"Failed: {report['failed']}\n")
+    print(f"Cleanup protected={report['protected']} candidates={report['candidate_count']} "
+          f"deleted={report['deleted']} failed={report['failed']}")
+    return 1 if report["failed"] else 0
 
 
 def update_readme(root=None, repository=None, payloads=None):
@@ -402,6 +505,8 @@ def refresh_health(root, repository, updated):
 
 
 def run(options):
+    if options.prune or options.plan_prune:
+        return prune(options)
     repository = repository_name(options.repository)
     if options.publish and not (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")) and not options.allow_local_http:
         raise ValueError("--publish requires GH_TOKEN or GITHUB_TOKEN with contents:write")
@@ -529,6 +634,8 @@ def parse_args():
     mode.add_argument("--publish", action="store_true", help="Upload verified assets, then update catalog")
     mode.add_argument("--download-only", action="store_true", help="Stage files without changing the live catalog")
     mode.add_argument("--dry-run", action="store_true", help="Check versions only (default)")
+    mode.add_argument("--plan-prune", action="store_true", help="Preview obsolete mirror assets without deleting")
+    mode.add_argument("--prune", action="store_true", help="Remove obsolete automated assets after the catalog is committed")
     parser.add_argument("--timeout", type=float, default=30)
     parser.add_argument("--retries", type=int, default=3)
     parser.add_argument("--retry-delay", type=float, default=1)

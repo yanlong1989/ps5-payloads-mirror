@@ -4,7 +4,7 @@
 
 ## 自动更新
 
-本仓库由 Cloudflare 在每小时第 7 分钟触发 GitHub Actions，GitHub 原生第 17 分钟定时任务保留作为备用，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。旧文件保留用于回退，同版本替换文件会使用带摘要的新文件名。失败项目保留原目录记录，运行报告列出原因。
+本仓库由 Cloudflare 在每小时第 7 分钟触发 GitHub Actions，GitHub 原生第 17 分钟定时任务保留作为备用，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。每个项目仅保留目录指向的当前版本。完整同步和目录提交成功后，核验全部当前文件，再清理本仓库自动上传的旧 ELF/BIN 文件。同版本替换文件使用带摘要的新文件名，旧文件在新文件发布成功后清理。同步或提交失败时跳过清理，保留原目录记录和文件；手工上传及未知项目的文件保留，运行报告列出原因与清理结果。
 
 默认跟踪稳定版；ShadowMountPlus 也跟踪预发布版。可在 `payloads.json` 为其他项目设置 `include_prereleases: true`。`SHA256SUMS` 列出当前文件的校验值。
 
@@ -20,6 +20,12 @@ python update_payloads.py --dry-run
 
 # 下载并校验到 payloads/，拟定目录写入 reports/staged-payloads.json
 python update_payloads.py --download-only
+
+# 核验当前目录和 Release，列出旧文件；不删除、不修改发布说明
+python update_payloads.py --plan-prune
+
+# 在目录提交成功后清理旧文件；需要 contents:write 权限
+python update_payloads.py --prune
 
 # 启动真实命令及本地 HTTP 服务，生成 reports/e2e-report.json
 python tests/e2e_mirror.py
