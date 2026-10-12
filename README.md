@@ -4,15 +4,15 @@
 
 ## 自动更新
 
-GitHub Actions 在每小时第 17 分钟检查上游，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。旧文件保留用于回退，同版本替换文件会使用带摘要的新文件名。失败项目保留原目录记录，运行报告列出原因。
+本仓库由 Cloudflare 在每小时第 7 分钟触发 GitHub Actions，GitHub 原生第 17 分钟定时任务保留作为备用，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。旧文件保留用于回退，同版本替换文件会使用带摘要的新文件名。失败项目保留原目录记录，运行报告列出原因。
 
 默认跟踪稳定版；ShadowMountPlus 也跟踪预发布版。可在 `payloads.json` 为其他项目设置 `include_prereleases: true`。`SHA256SUMS` 列出当前文件的校验值。
 
-GitHub 的定时运行可能延迟。成功完整检查后，每 28 天刷新健康记录，以保持仓库活动。
+Cloudflare 通过仅安装到本仓库的 GitHub App 自动签发短期令牌；配置与复现步骤见 [scheduler/README.md](scheduler/README.md)。2026-10-12 18:07（北京时间）的正式小时任务已自然触发并完成，检查 26 个来源，失败 0 个：[运行记录](https://github.com/yanlong1989/ps5-payloads-mirror/actions/runs/38234349086)。GitHub 原生定时可能延迟或漏跑。成功完整检查后，每 28 天刷新健康记录，以保持仓库活动。
 
 ## 使用与验证
 
-Fork 后先在 Actions 启用工作流，再运行 **Hourly Payloads Mirror**。只使用仓库自带的 `GITHUB_TOKEN`，无需另存个人令牌。
+Fork 后先在 Actions 启用工作流，再运行 **Hourly Payloads Mirror**。同步作业使用仓库自带的 `GITHUB_TOKEN`，无需另存个人令牌。外部 Cloudflare 调度需要按 `scheduler/README.md` 单独部署。
 
 ```bash
 # 检查上游版本；不发布、不修改正式目录
