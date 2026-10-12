@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ps5-mirror-scheduler",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": true,
+  "triggers": { "crons": ["7 * * * *"] },
+  "observability": { "enabled": true },
+  "vars": {
+    "REPOSITORY": "yanlong1989/ps5-payloads-mirror",
+    "WORKFLOW": "update_mirror.yml",
+    "BRANCH": "main"
+  }
+}

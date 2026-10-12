@@ -1,0 +1,12 @@
+{
+  "name": "ps5-mirror-scheduler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:e2e": "node e2e.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}
