@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **pldmgr** | `v0.6.0` | A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5. | `2026-10-13` | [Source](https://github.com/itsPLK/pldmgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.0.elf) |
+| **pldmgr** | `v0.6.1` | A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5. | `2026-10-14` | [Source](https://github.com/itsPLK/pldmgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.1.elf) |
 | **ps5upload** | `v7.0.22` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-12` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.22.elf) |
 | **ps-patch-system** | `38108724867` | App patching system | `2026-10-11` | [Source](https://github.com/illusionyy/ps-patch-system/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps-patch-system_38108724867.elf) |
 | **PKG-Manager** | `v1.5.1` | Browse and install PKGs from USB, disc, or SMB shares directly on your PS5 | `2026-10-10` | [Source](https://github.com/itsPLK/ps5-pkg-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf) |
