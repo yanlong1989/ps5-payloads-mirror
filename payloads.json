@@ -1,5 +1,27 @@
 [
   {
+    "name": "onionHEN",
+    "filename": "onionHEN_v0.9.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
+    "source": "https://github.com/aydencharles/onionHEN/releases",
+    "source_direct": "https://github.com/aydencharles/onionHEN/releases/download/v0.9.0/OnionHEN.elf",
+    "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
+    "last_update": "2026-10-15",
+    "version": "v0.9.0",
+    "category": "System & Jailbreak",
+    "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
+    "payload_size": 4676224,
+    "source_asset": {
+      "release_id": 413538023,
+      "id": 643102391,
+      "name": "OnionHEN.elf",
+      "size": 4676224,
+      "updated_at": "2026-10-15T07:42:24Z",
+      "digest": "sha256:1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
+      "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.9.0/OnionHEN.elf"
+    }
+  },
+  {
     "name": "pldmgr",
     "filename": "pldmgr_v0.6.1.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.1.elf",
@@ -308,28 +330,6 @@
       "updated_at": null,
       "digest": null,
       "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf"
-    }
-  },
-  {
-    "name": "onionHEN",
-    "filename": "onionHEN_v0.0.13.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.0.13.elf",
-    "source": "https://github.com/aydencharles/onionHEN/releases",
-    "source_direct": "https://github.com/aydencharles/onionHEN/releases/download/v0.0.13/OnionHEN.elf",
-    "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
-    "last_update": "2026-09-11",
-    "version": "v0.0.13",
-    "category": "System & Jailbreak",
-    "checksum": "aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3",
-    "payload_size": 4326024,
-    "source_asset": {
-      "release_id": 387194815,
-      "id": 557621057,
-      "name": "OnionHEN.elf",
-      "size": 4326024,
-      "updated_at": "2026-09-11T16:44:30Z",
-      "digest": "sha256:aa3f98847948e2ae8ea600c3f437e28247a0a4f8b73651a046d2859924bf97b3",
-      "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.0.13/OnionHEN.elf"
     }
   },
   {
