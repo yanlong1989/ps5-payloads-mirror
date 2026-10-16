@@ -1,5 +1,27 @@
 [
   {
+    "name": "ps5upload",
+    "filename": "ps5upload_v7.0.26.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.26.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.26/ps5upload-7.0.26.elf",
+    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
+    "last_update": "2026-10-16",
+    "version": "v7.0.26",
+    "category": "Networking & Servers",
+    "checksum": "9b08d5a3849a10209be028b63c07a181b10fd146a7cf94fd3185f328e68dea01",
+    "payload_size": 3329584,
+    "source_asset": {
+      "release_id": 414444245,
+      "id": 645782453,
+      "name": "ps5upload-7.0.26.elf",
+      "size": 3329584,
+      "updated_at": "2026-10-16T01:41:38Z",
+      "digest": "sha256:9b08d5a3849a10209be028b63c07a181b10fd146a7cf94fd3185f328e68dea01",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.26/ps5upload-7.0.26.elf"
+    }
+  },
+  {
     "name": "onionHEN",
     "filename": "onionHEN_v0.9.0.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
@@ -19,28 +41,6 @@
       "updated_at": "2026-10-15T07:42:24Z",
       "digest": "sha256:1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
       "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.9.0/OnionHEN.elf"
-    }
-  },
-  {
-    "name": "ps5upload",
-    "filename": "ps5upload_v7.0.25.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.25.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.25/ps5upload-7.0.25.elf",
-    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-    "last_update": "2026-10-15",
-    "version": "v7.0.25",
-    "category": "Networking & Servers",
-    "checksum": "35c6b820302bb5ca2d3b270caa808f95b351bf7ca2bc5c0e10daba3204c1e862",
-    "payload_size": 3328408,
-    "source_asset": {
-      "release_id": 414212056,
-      "id": 644987388,
-      "name": "ps5upload-7.0.25.elf",
-      "size": 3328408,
-      "updated_at": "2026-10-15T19:51:14Z",
-      "digest": "sha256:35c6b820302bb5ca2d3b270caa808f95b351bf7ca2bc5c0e10daba3204c1e862",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.25/ps5upload-7.0.25.elf"
     }
   },
   {
