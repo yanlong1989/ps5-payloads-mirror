@@ -22,6 +22,28 @@
     }
   },
   {
+    "name": "ps5-web-file-manager",
+    "filename": "ps5-web-file-manager_v1.11.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf",
+    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
+    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
+    "description": "A file manager for PS5 with a web UI",
+    "last_update": "2026-10-17",
+    "version": "v1.11",
+    "category": "Utilities & Tools",
+    "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
+    "payload_size": 477016,
+    "source_asset": {
+      "release_id": 415980782,
+      "id": 651208450,
+      "name": "web-file-mgr-v1.11.elf",
+      "size": 477016,
+      "updated_at": "2026-10-17T18:13:00Z",
+      "digest": "sha256:cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf"
+    }
+  },
+  {
     "name": "onionHEN",
     "filename": "onionHEN_v0.9.0.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
@@ -175,28 +197,6 @@
       "updated_at": "2026-10-08T16:06:47Z",
       "digest": "sha256:f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
       "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf"
-    }
-  },
-  {
-    "name": "ps5-web-file-manager",
-    "filename": "ps5-web-file-manager_v1.10.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
-    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
-    "description": "A file manager for PS5 with a web UI",
-    "last_update": "2026-10-05",
-    "version": "v1.10",
-    "category": "Utilities & Tools",
-    "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
-    "payload_size": 460568,
-    "source_asset": {
-      "release_id": 403820776,
-      "id": 612830243,
-      "name": "web-file-mgr-v1.10.elf",
-      "size": 460568,
-      "updated_at": "2026-10-05T14:39:40Z",
-      "digest": "sha256:409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf"
     }
   },
   {
