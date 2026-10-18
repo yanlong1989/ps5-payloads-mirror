@@ -1,24 +1,46 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload_v7.1.2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.2.elf",
+    "filename": "ps5upload_v7.1.3.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.3.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.2/ps5upload-7.1.2.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.3/ps5upload-7.1.3.elf",
     "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
     "last_update": "2026-10-18",
-    "version": "v7.1.2",
+    "version": "v7.1.3",
     "category": "Networking & Servers",
-    "checksum": "dde5731e9423112c243cde2c13165b5992f99e3ec35eb423e2c2bcbfab0ee564",
-    "payload_size": 3971032,
+    "checksum": "74eeaabc600d0b305117f93375010923e5732602d10228c5b6eba2047b22df2b",
+    "payload_size": 4049336,
     "source_asset": {
-      "release_id": 416464303,
-      "id": 653544274,
-      "name": "ps5upload-7.1.2.elf",
-      "size": 3971032,
-      "updated_at": "2026-10-18T13:24:01Z",
-      "digest": "sha256:dde5731e9423112c243cde2c13165b5992f99e3ec35eb423e2c2bcbfab0ee564",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.2/ps5upload-7.1.2.elf"
+      "release_id": 416573094,
+      "id": 653959416,
+      "name": "ps5upload-7.1.3.elf",
+      "size": 4049336,
+      "updated_at": "2026-10-18T16:46:01Z",
+      "digest": "sha256:74eeaabc600d0b305117f93375010923e5732602d10228c5b6eba2047b22df2b",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.3/ps5upload-7.1.3.elf"
+    }
+  },
+  {
+    "name": "garlic-savemgr",
+    "filename": "garlic-savemgr_v1.14.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.0.elf",
+    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
+    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.14.0/garlic-savemgr.elf",
+    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+    "last_update": "2026-10-18",
+    "version": "v1.14.0",
+    "category": "Utilities & Tools",
+    "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
+    "payload_size": 1687232,
+    "source_asset": {
+      "release_id": 27333,
+      "id": 1583,
+      "name": "garlic-savemgr.elf",
+      "size": 1687232,
+      "updated_at": null,
+      "digest": null,
+      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.14.0/garlic-savemgr.elf"
     }
   },
   {
@@ -308,28 +330,6 @@
       "updated_at": "2026-09-20T20:49:26Z",
       "digest": "sha256:f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
       "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf"
-    }
-  },
-  {
-    "name": "garlic-savemgr",
-    "filename": "garlic-savemgr_v1.13.1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
-    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf",
-    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-    "last_update": "2026-09-19",
-    "version": "v1.13.1",
-    "category": "Utilities & Tools",
-    "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
-    "payload_size": 1665456,
-    "source_asset": {
-      "release_id": 9816,
-      "id": 1449,
-      "name": "garlic-savemgr.elf",
-      "size": 1665456,
-      "updated_at": null,
-      "digest": null,
-      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf"
     }
   },
   {
