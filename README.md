@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v7.1.0` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-17` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.0.elf) |
+| **ps5upload** | `v7.1.2` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-18` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.2.elf) |
 | **ps5-web-file-manager** | `v1.11` | A file manager for PS5 with a web UI | `2026-10-17` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf) |
 | **onionHEN** | `v0.9.0` | A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN | `2026-10-15` | [Source](https://github.com/aydencharles/onionHEN/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf) |
 | **pldmgr** | `v0.6.1` | A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5. | `2026-10-14` | [Source](https://github.com/itsPLK/pldmgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.1.elf) |
