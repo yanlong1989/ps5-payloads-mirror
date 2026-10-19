@@ -23,24 +23,24 @@
   },
   {
     "name": "pldmgr",
-    "filename": "pldmgr_v0.6.2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.2.elf",
+    "filename": "pldmgr_v0.6.3.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.2/pldmgr_v0.6.2.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
     "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
     "last_update": "2026-10-19",
-    "version": "v0.6.2",
+    "version": "v0.6.3",
     "category": "Utilities & Tools",
-    "checksum": "0cd5e0cc89ca4db6586dc1ff6f335caa4e33b50951c0ef86f5d1ea971f34e9c5",
+    "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
     "payload_size": 2795992,
     "source_asset": {
-      "release_id": 417240438,
-      "id": 656150236,
-      "name": "pldmgr_v0.6.2.elf",
+      "release_id": 417340345,
+      "id": 656395267,
+      "name": "pldmgr_v0.6.3.elf",
       "size": 2795992,
-      "updated_at": "2026-10-19T12:00:06Z",
-      "digest": "sha256:0cd5e0cc89ca4db6586dc1ff6f335caa4e33b50951c0ef86f5d1ea971f34e9c5",
-      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.2/pldmgr_v0.6.2.elf"
+      "updated_at": "2026-10-19T13:42:54Z",
+      "digest": "sha256:2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf"
     }
   },
   {
