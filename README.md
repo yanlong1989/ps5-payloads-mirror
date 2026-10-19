@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v7.1.6` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-19` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.6.elf) |
+| **ps5upload** | `v7.1.8` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-19` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.8.elf) |
 | **garlic-savemgr** | `v1.14.0` | PS5 save decrypt/encrypt/browse with embedded web UI. | `2026-10-18` | [Source](https://git.etawen.dev/earthonion/garlic-savemgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.0.elf) |
 | **ps5-web-file-manager** | `v1.11` | A file manager for PS5 with a web UI | `2026-10-17` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf) |
 | **onionHEN** | `v0.9.0` | A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN | `2026-10-15` | [Source](https://github.com/aydencharles/onionHEN/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf) |
