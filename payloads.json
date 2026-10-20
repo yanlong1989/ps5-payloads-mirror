@@ -22,6 +22,30 @@
     }
   },
   {
+    "name": "ShadowMountPlus",
+    "filename": "ShadowMountPlus_1.7beta6.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta6.elf",
+    "source": "https://github.com/drakmor/ShadowMountPlus/releases",
+    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta6/ShadowMountPlus_1.7beta6.zip",
+    "extract_file": "shadowmountplus.elf",
+    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
+    "last_update": "2026-10-20",
+    "version": "1.7beta6",
+    "category": "Utilities & Tools",
+    "checksum": "c2fb6f6bf39a94572f2b34390d5fae7ccd257c734417709a248acb6cd6e18522",
+    "include_prereleases": true,
+    "payload_size": 2517016,
+    "source_asset": {
+      "release_id": 418964633,
+      "id": 660729300,
+      "name": "ShadowMountPlus_1.7beta6.zip",
+      "size": 1398373,
+      "updated_at": "2026-10-20T23:03:26Z",
+      "digest": "sha256:e0719429de1320e821a4d43636e177395aba1c4b355cf0353f653deb70ddf461",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta6/ShadowMountPlus_1.7beta6.zip"
+    }
+  },
+  {
     "name": "pldmgr",
     "filename": "pldmgr_v0.6.3.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf",
@@ -173,30 +197,6 @@
       "updated_at": "2026-10-10T17:56:27Z",
       "digest": "sha256:4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
       "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf"
-    }
-  },
-  {
-    "name": "ShadowMountPlus",
-    "filename": "ShadowMountPlus_1.7-beta5fix1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
-    "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/ShadowMountPlus_1.7-beta5fix1.zip",
-    "extract_file": "shadowmountplus.elf",
-    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-    "last_update": "2026-10-10",
-    "version": "1.7-beta5fix1",
-    "category": "Utilities & Tools",
-    "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
-    "include_prereleases": true,
-    "payload_size": 2498376,
-    "source_asset": {
-      "release_id": 409132053,
-      "id": 628709201,
-      "name": "ShadowMountPlus_1.7-beta5fix1.zip",
-      "size": 1383110,
-      "updated_at": "2026-10-10T18:39:20Z",
-      "digest": "sha256:fb3b59c24d4d2cb556e5798fcd21cfbdf1fc56627e9fb843dc0fc0d6ef5bab8c",
-      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/ShadowMountPlus_1.7-beta5fix1.zip"
     }
   },
   {
