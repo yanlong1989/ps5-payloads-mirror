@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v7.1.9` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-19` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.9.elf) |
+| **ps5upload** | `v7.1.10` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-20` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.10.elf) |
 | **pldmgr** | `v0.6.3` | A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5. | `2026-10-19` | [Source](https://github.com/itsPLK/pldmgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf) |
 | **ps5-web-file-manager** | `v1.11b` | A file manager for PS5 with a web UI | `2026-10-19` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11b.elf) |
 | **garlic-savemgr** | `v1.14.0` | PS5 save decrypt/encrypt/browse with embedded web UI. | `2026-10-18` | [Source](https://git.etawen.dev/earthonion/garlic-savemgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.0.elf) |
