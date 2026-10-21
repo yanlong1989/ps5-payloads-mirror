@@ -1,26 +1,26 @@
 [
   {
     "name": "ShadowMountPlus",
-    "filename": "ShadowMountPlus_1.7beta6-fix2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta6-fix2.elf",
+    "filename": "ShadowMountPlus_1.7beta7.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta7.elf",
     "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta6-fix2/ShadowMountPlus_1.7beta6-fix2.zip",
+    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta7/ShadowMountPlus_1.7beta7.zip",
     "extract_file": "shadowmountplus.elf",
     "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
     "last_update": "2026-10-21",
-    "version": "1.7beta6-fix2",
+    "version": "1.7beta7",
     "category": "Utilities & Tools",
-    "checksum": "ec87ad20f78be2d7cb82e9d77e72352b079e049baac3c1a211960ccd6f252e62",
+    "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee",
     "include_prereleases": true,
-    "payload_size": 2517224,
+    "payload_size": 2517288,
     "source_asset": {
-      "release_id": 419043877,
-      "id": 661002961,
-      "name": "ShadowMountPlus_1.7beta6-fix2.zip",
-      "size": 1399395,
-      "updated_at": "2026-10-21T01:25:19Z",
-      "digest": "sha256:21acdd3d3c7cc2bbc57d6c9f9ad861d6e5491871b52c6dac5f71465e0e695c0d",
-      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta6-fix2/ShadowMountPlus_1.7beta6-fix2.zip"
+      "release_id": 419501255,
+      "id": 662364099,
+      "name": "ShadowMountPlus_1.7beta7.zip",
+      "size": 1407152,
+      "updated_at": "2026-10-21T12:00:24Z",
+      "digest": "sha256:5f009ce35fadf39253db22c85aff8d3e80e0a6ed33f1429f9819ed6dca5c0c76",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta7/ShadowMountPlus_1.7beta7.zip"
     }
   },
   {
