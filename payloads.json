@@ -68,6 +68,28 @@
     }
   },
   {
+    "name": "elfldr",
+    "filename": "elfldr_v0.27.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.27.elf",
+    "source": "https://github.com/ps5-payload-dev/elfldr/releases",
+    "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
+    "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
+    "last_update": "2026-10-21",
+    "version": "v0.27",
+    "category": "Loaders",
+    "checksum": "82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
+    "payload_size": 394568,
+    "source_asset": {
+      "release_id": 419864301,
+      "id": 663305379,
+      "name": "elfldr-ps5.elf",
+      "size": 394568,
+      "updated_at": "2026-10-21T17:42:21Z",
+      "digest": "sha256:82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
+      "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf"
+    }
+  },
+  {
     "name": "pldmgr",
     "filename": "pldmgr_v0.6.3.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf",
@@ -352,28 +374,6 @@
       "updated_at": "2026-09-05T10:38:58Z",
       "digest": "sha256:9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
       "url": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf"
-    }
-  },
-  {
-    "name": "elfldr",
-    "filename": "elfldr_v0.26.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
-    "source": "https://github.com/ps5-payload-dev/elfldr/releases",
-    "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
-    "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
-    "last_update": "2026-08-29",
-    "version": "v0.26",
-    "category": "Loaders",
-    "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
-    "payload_size": 394480,
-    "source_asset": {
-      "release_id": 379053312,
-      "id": 535517260,
-      "name": "elfldr-ps5.elf",
-      "size": 394480,
-      "updated_at": "2026-08-29T17:31:19Z",
-      "digest": "sha256:ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
-      "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf"
     }
   },
   {
