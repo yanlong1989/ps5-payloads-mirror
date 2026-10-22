@@ -573,5 +573,19 @@
       "digest": "sha256:4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
       "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
     }
+  },
+  {
+    "name": "ps5-exporter",
+    "source": "https://github.com/Marice/ps5-exporter/releases",
+    "description": "Prometheus exporter for a jailbroken PS5",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-exporter\\.elf$"
+  },
+  {
+    "name": "ps5-date-time-sync",
+    "source": "https://github.com/kerrdec97/ps5-date-time-sync/releases",
+    "description": "Automatically restores the system date and time using public NTP servers",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-date-time-sync\\.elf$"
   }
 ]
