@@ -134,6 +134,29 @@
     }
   },
   {
+    "name": "ps5-exporter",
+    "source": "https://github.com/Marice/ps5-exporter/releases",
+    "description": "Prometheus exporter for a jailbroken PS5",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-exporter\\.elf$",
+    "filename": "ps5-exporter_v0.3.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-exporter_v0.3.1.elf",
+    "version": "v0.3.1",
+    "last_update": "2026-10-19",
+    "source_direct": "https://github.com/Marice/ps5-exporter/releases/download/v0.3.1/ps5-exporter.elf",
+    "checksum": "ff0c36333ba44da20a05039f148b644225edfeeac80e7c12006f767681739862",
+    "payload_size": 189280,
+    "source_asset": {
+      "release_id": 417541358,
+      "id": 656891063,
+      "name": "ps5-exporter.elf",
+      "size": 189280,
+      "updated_at": "2026-10-19T17:10:18Z",
+      "digest": "sha256:ff0c36333ba44da20a05039f148b644225edfeeac80e7c12006f767681739862",
+      "url": "https://github.com/Marice/ps5-exporter/releases/download/v0.3.1/ps5-exporter.elf"
+    }
+  },
+  {
     "name": "onionHEN",
     "filename": "onionHEN_v0.9.0.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
@@ -377,6 +400,29 @@
     }
   },
   {
+    "name": "ps5-date-time-sync",
+    "source": "https://github.com/kerrdec97/ps5-date-time-sync/releases",
+    "description": "Automatically restores the system date and time using public NTP servers",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-date-time-sync\\.elf$",
+    "filename": "ps5-date-time-sync_v1.0.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-date-time-sync_v1.0.0.elf",
+    "version": "v1.0.0",
+    "last_update": "2026-08-24",
+    "source_direct": "https://github.com/kerrdec97/ps5-date-time-sync/releases/download/v1.0.0/ps5-date-time-sync.elf",
+    "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
+    "payload_size": 130240,
+    "source_asset": {
+      "release_id": 375774365,
+      "id": 527741587,
+      "name": "ps5-date-time-sync.elf",
+      "size": 130240,
+      "updated_at": "2026-08-24T14:44:15Z",
+      "digest": "sha256:91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
+      "url": "https://github.com/kerrdec97/ps5-date-time-sync/releases/download/v1.0.0/ps5-date-time-sync.elf"
+    }
+  },
+  {
     "name": "ftpsrv",
     "filename": "ftpsrv_v0.21.1.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
@@ -573,19 +619,5 @@
       "digest": "sha256:4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
       "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
     }
-  },
-  {
-    "name": "ps5-exporter",
-    "source": "https://github.com/Marice/ps5-exporter/releases",
-    "description": "Prometheus exporter for a jailbroken PS5",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-exporter\\.elf$"
-  },
-  {
-    "name": "ps5-date-time-sync",
-    "source": "https://github.com/kerrdec97/ps5-date-time-sync/releases",
-    "description": "Automatically restores the system date and time using public NTP servers",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-date-time-sync\\.elf$"
   }
 ]
