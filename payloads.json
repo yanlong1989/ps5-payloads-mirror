@@ -1,5 +1,27 @@
 [
   {
+    "name": "BFpilot",
+    "filename": "BFpilot_v0.5.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.5.0.elf",
+    "source": "https://github.com/ItsBlurf/BFpilot/releases",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.5.0/bfpilot.elf",
+    "description": "Lightweight PS5 file manager, browser based",
+    "last_update": "2026-10-24",
+    "version": "v0.5.0",
+    "category": "Utilities & Tools",
+    "checksum": "b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f",
+    "payload_size": 3529144,
+    "source_asset": {
+      "release_id": 422522681,
+      "id": 671295404,
+      "name": "bfpilot.elf",
+      "size": 3529144,
+      "updated_at": "2026-10-24T04:48:23Z",
+      "digest": "sha256:b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f",
+      "url": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.5.0/bfpilot.elf"
+    }
+  },
+  {
     "name": "ps5upload",
     "filename": "ps5upload_v7.1.19.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.19.elf",
@@ -442,28 +464,6 @@
       "updated_at": "2026-08-20T17:02:49Z",
       "digest": "sha256:7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
       "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf"
-    }
-  },
-  {
-    "name": "BFpilot",
-    "filename": "BFpilot_v0.4.4.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.4.elf",
-    "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf",
-    "description": "Lightweight PS5 file manager, browser based",
-    "last_update": "2026-08-11",
-    "version": "v0.4.4",
-    "category": "Utilities & Tools",
-    "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
-    "payload_size": 1810632,
-    "source_asset": {
-      "release_id": 368758763,
-      "id": 510464985,
-      "name": "bfpilot.elf",
-      "size": 1810632,
-      "updated_at": "2026-08-11T18:08:09Z",
-      "digest": "sha256:5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
-      "url": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf"
     }
   },
   {
