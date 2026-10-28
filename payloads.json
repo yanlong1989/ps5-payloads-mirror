@@ -44,6 +44,29 @@
     }
   },
   {
+    "name": "zftpd",
+    "filename": "zftpd_v1.7.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.7.0.elf",
+    "source": "https://github.com/seregonwar/zftpd/releases",
+    "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-zhttp-v1.7.0.elf",
+    "asset_pattern": "zhttp",
+    "description": "Zero-copy FTP/HTTP Server",
+    "last_update": "2026-10-28",
+    "version": "v1.7.0",
+    "category": "Networking & Servers",
+    "checksum": "8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e",
+    "payload_size": 19291608,
+    "source_asset": {
+      "release_id": 426458054,
+      "id": 684453888,
+      "name": "zftpd-ps5-zhttp-v1.7.0.elf",
+      "size": 19291608,
+      "updated_at": "2026-10-28T09:17:36Z",
+      "digest": "sha256:8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e",
+      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-zhttp-v1.7.0.elf"
+    }
+  },
+  {
     "name": "ShadowMountPlus",
     "filename": "ShadowMountPlus_1.7beta9.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta9.elf",
@@ -286,29 +309,6 @@
       "updated_at": "2026-10-03T01:10:12Z",
       "digest": "sha256:c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
       "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf"
-    }
-  },
-  {
-    "name": "zftpd",
-    "filename": "zftpd_v1.6.0.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
-    "source": "https://github.com/seregonwar/zftpd/releases",
-    "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
-    "asset_pattern": "zhttp",
-    "description": "Zero-copy FTP/HTTP Server",
-    "last_update": "2026-09-30",
-    "version": "v1.6.0",
-    "category": "Networking & Servers",
-    "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
-    "payload_size": 19221056,
-    "source_asset": {
-      "release_id": 400348362,
-      "id": 601596865,
-      "name": "zftpd-ps5-zhttp-v1.6.0.elf",
-      "size": 19221056,
-      "updated_at": "2026-09-30T18:58:26Z",
-      "digest": "sha256:fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf"
     }
   },
   {
