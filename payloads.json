@@ -1,24 +1,24 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload_v9.1.0.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v9.1.0.elf",
+    "filename": "ps5upload_v9.2.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v9.2.0.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v9.1.0/ps5upload-9.1.0.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v9.2.0/ps5upload-9.2.0.elf",
     "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
     "last_update": "2026-10-29",
-    "version": "v9.1.0",
+    "version": "v9.2.0",
     "category": "Networking & Servers",
-    "checksum": "4004b092c48b531ceb2035c2213c5fe8b0a7aaa0af47df7370c67935649b0f1d",
+    "checksum": "1b80852184fa8fa7df0783d1b151902dca514dc1e40a4b20623c23004a2a4367",
     "payload_size": 6221376,
     "source_asset": {
-      "release_id": 428028431,
-      "id": 688951829,
-      "name": "ps5upload-9.1.0.elf",
+      "release_id": 428287601,
+      "id": 689608700,
+      "name": "ps5upload-9.2.0.elf",
       "size": 6221376,
-      "updated_at": "2026-10-29T15:14:03Z",
-      "digest": "sha256:4004b092c48b531ceb2035c2213c5fe8b0a7aaa0af47df7370c67935649b0f1d",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v9.1.0/ps5upload-9.1.0.elf"
+      "updated_at": "2026-10-29T19:08:56Z",
+      "digest": "sha256:1b80852184fa8fa7df0783d1b151902dca514dc1e40a4b20623c23004a2a4367",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v9.2.0/ps5upload-9.2.0.elf"
     }
   },
   {
@@ -88,6 +88,28 @@
       "updated_at": "2026-10-29T17:47:18Z",
       "digest": "sha256:f0cc32e772318f1ae53f1eccae207cb9aa1efb96d1a2a6249205bb3e0e478986",
       "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.0/ps5-dump-forge-0.5.0-ps5.elf"
+    }
+  },
+  {
+    "name": "ps5-web-file-manager",
+    "filename": "ps5-web-file-manager_v1.13-rc1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.13-rc1.elf",
+    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
+    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.13-rc1/web-file-mgr-v1.13-rc1.elf",
+    "description": "A file manager for PS5 with a web UI",
+    "last_update": "2026-10-29",
+    "version": "v1.13-rc1",
+    "category": "Utilities & Tools",
+    "checksum": "8c9456a10ddde61dd0247b9171e71a285b955096ca7eb8e4ae3bdbe94f38f605",
+    "payload_size": 575336,
+    "source_asset": {
+      "release_id": 428279749,
+      "id": 689586230,
+      "name": "web-file-mgr-v1.13-rc1.elf",
+      "size": 575336,
+      "updated_at": "2026-10-29T19:00:47Z",
+      "digest": "sha256:8c9456a10ddde61dd0247b9171e71a285b955096ca7eb8e4ae3bdbe94f38f605",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.13-rc1/web-file-mgr-v1.13-rc1.elf"
     }
   },
   {
@@ -203,28 +225,6 @@
       "updated_at": "2026-10-23T20:08:02Z",
       "digest": "sha256:f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6",
       "url": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf"
-    }
-  },
-  {
-    "name": "ps5-web-file-manager",
-    "filename": "ps5-web-file-manager_v1.12.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.12.elf",
-    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.12/web-file-mgr-v1.12.elf",
-    "description": "A file manager for PS5 with a web UI",
-    "last_update": "2026-10-22",
-    "version": "v1.12",
-    "category": "Utilities & Tools",
-    "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-    "payload_size": 477016,
-    "source_asset": {
-      "release_id": 420871091,
-      "id": 666218458,
-      "name": "web-file-mgr-v1.12.elf",
-      "size": 477016,
-      "updated_at": "2026-10-22T15:12:54Z",
-      "digest": "sha256:f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.12/web-file-mgr-v1.12.elf"
     }
   },
   {
