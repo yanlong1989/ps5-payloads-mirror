@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "ps4mount",
+    "source": "https://github.com/gasb07/ps4mount/releases",
+    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps4mount\\.elf$",
+    "filename": "ps4mount_v0.7.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.2.elf",
+    "version": "v0.7.2",
+    "last_update": "2026-10-29",
+    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf",
+    "checksum": "30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
+    "payload_size": 1543448,
+    "source_asset": {
+      "release_id": 428103365,
+      "id": 689131461,
+      "name": "ps4mount.elf",
+      "size": 1543448,
+      "updated_at": "2026-10-29T16:15:46Z",
+      "digest": "sha256:30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
+      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf"
+    }
+  },
+  {
     "name": "WebKit-Autoloader-Installer",
     "filename": "WebKit-Autoloader-Installer_v0.6.2.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.2.elf",
@@ -111,29 +134,6 @@
       "updated_at": "2026-10-28T01:09:44Z",
       "digest": "sha256:9b37fa14568168a0cb22dad41a912562691286bb39a19211f692cdb332b81a6e",
       "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.5.3/neo-manager.elf"
-    }
-  },
-  {
-    "name": "ps4mount",
-    "source": "https://github.com/gasb07/ps4mount/releases",
-    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps4mount\\.elf$",
-    "filename": "ps4mount_v0.7.1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.1.elf",
-    "version": "v0.7.1",
-    "last_update": "2026-10-28",
-    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.1/ps4mount.elf",
-    "checksum": "ea931ffc7b8da22b9ff36795388caaae28a926d9d44ecbb259e4c6e40aa72a27",
-    "payload_size": 1542768,
-    "source_asset": {
-      "release_id": 427036465,
-      "id": 685930238,
-      "name": "ps4mount.elf",
-      "size": 1542768,
-      "updated_at": "2026-10-28T18:25:54Z",
-      "digest": "sha256:ea931ffc7b8da22b9ff36795388caaae28a926d9d44ecbb259e4c6e40aa72a27",
-      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.1/ps4mount.elf"
     }
   },
   {
