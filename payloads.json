@@ -45,6 +45,52 @@
     }
   },
   {
+    "name": "NeoEnabler",
+    "source": "https://github.com/gasb07/NeoEnabler/releases",
+    "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^neo-manager\\.elf$",
+    "filename": "NeoEnabler_v0.6.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.0.elf",
+    "version": "v0.6.0",
+    "last_update": "2026-10-29",
+    "source_direct": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.0/neo-manager.elf",
+    "checksum": "e1db4f5220a3b99453e422162ec50da6bb44c6b52a6fa125d782d2ab0dffa75b",
+    "payload_size": 324400,
+    "source_asset": {
+      "release_id": 428195359,
+      "id": 689368556,
+      "name": "neo-manager.elf",
+      "size": 324400,
+      "updated_at": "2026-10-29T17:39:31Z",
+      "digest": "sha256:e1db4f5220a3b99453e422162ec50da6bb44c6b52a6fa125d782d2ab0dffa75b",
+      "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.0/neo-manager.elf"
+    }
+  },
+  {
+    "name": "ps5-dump-forge",
+    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+    "description": "A toolkit for working with PS5 game dumps",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
+    "filename": "ps5-dump-forge_v0.5.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.0.elf",
+    "version": "v0.5.0",
+    "last_update": "2026-10-29",
+    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.0/ps5-dump-forge-0.5.0-ps5.elf",
+    "checksum": "f0cc32e772318f1ae53f1eccae207cb9aa1efb96d1a2a6249205bb3e0e478986",
+    "payload_size": 19860336,
+    "source_asset": {
+      "release_id": 428204826,
+      "id": 689391064,
+      "name": "ps5-dump-forge-0.5.0-ps5.elf",
+      "size": 19860336,
+      "updated_at": "2026-10-29T17:47:18Z",
+      "digest": "sha256:f0cc32e772318f1ae53f1eccae207cb9aa1efb96d1a2a6249205bb3e0e478986",
+      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.0/ps5-dump-forge-0.5.0-ps5.elf"
+    }
+  },
+  {
     "name": "WebKit-Autoloader-Installer",
     "filename": "WebKit-Autoloader-Installer_v0.6.2.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.2.elf",
@@ -111,52 +157,6 @@
       "updated_at": "2026-10-28T21:59:30Z",
       "digest": "sha256:424e7c3ff54f998d322f74460db02faee4fd1c6a42c5ddb6daf007005cdc6b9b",
       "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta10/ShadowMountPlus_1.7beta10.zip"
-    }
-  },
-  {
-    "name": "NeoEnabler",
-    "source": "https://github.com/gasb07/NeoEnabler/releases",
-    "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^neo-manager\\.elf$",
-    "filename": "NeoEnabler_v0.5.3.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.5.3.elf",
-    "version": "v0.5.3",
-    "last_update": "2026-10-28",
-    "source_direct": "https://github.com/gasb07/NeoEnabler/releases/download/v0.5.3/neo-manager.elf",
-    "checksum": "9b37fa14568168a0cb22dad41a912562691286bb39a19211f692cdb332b81a6e",
-    "payload_size": 290312,
-    "source_asset": {
-      "release_id": 426157432,
-      "id": 683400794,
-      "name": "neo-manager.elf",
-      "size": 290312,
-      "updated_at": "2026-10-28T01:09:44Z",
-      "digest": "sha256:9b37fa14568168a0cb22dad41a912562691286bb39a19211f692cdb332b81a6e",
-      "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.5.3/neo-manager.elf"
-    }
-  },
-  {
-    "name": "ps5-dump-forge",
-    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
-    "description": "A toolkit for working with PS5 game dumps",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
-    "filename": "ps5-dump-forge_v0.4.2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.4.2.elf",
-    "version": "v0.4.2",
-    "last_update": "2026-10-27",
-    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.4.2/ps5-dump-forge-0.4.2-ps5.elf",
-    "checksum": "00ddbaa578f0c044cf445283adc00023c57812e17e9cda324b25557c8ba40453",
-    "payload_size": 18975472,
-    "source_asset": {
-      "release_id": 425438524,
-      "id": 681556141,
-      "name": "ps5-dump-forge-0.4.2-ps5.elf",
-      "size": 18975472,
-      "updated_at": "2026-10-27T12:36:13Z",
-      "digest": "sha256:00ddbaa578f0c044cf445283adc00023c57812e17e9cda324b25557c8ba40453",
-      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.4.2/ps5-dump-forge-0.4.2-ps5.elf"
     }
   },
   {
