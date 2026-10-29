@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v9.0.1` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-29` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v9.0.1.elf) |
+| **ps5upload** | `v9.1.0` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-29` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v9.1.0.elf) |
 | **WebKit-Autoloader-Installer** | `v0.6.2` | Installs WebKit Autoloader on homescreen (FW 7.00-13.60) | `2026-10-28` | [Source](https://github.com/itsPLK/ps5-webkit-autoloader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.2.elf) |
 | **zftpd** | `v1.7.0` | Zero-copy FTP/HTTP Server | `2026-10-28` | [Source](https://github.com/seregonwar/zftpd/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.7.0.elf) |
 | **ShadowMountPlus** | `1.7beta10` | A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles. | `2026-10-28` | [Source](https://github.com/drakmor/ShadowMountPlus/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta10.elf) |
