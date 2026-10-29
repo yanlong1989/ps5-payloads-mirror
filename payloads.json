@@ -619,5 +619,47 @@
       "digest": "sha256:4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
       "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
     }
+  },
+  {
+    "name": "NeoEnabler",
+    "source": "https://github.com/gasb07/NeoEnabler/releases",
+    "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^neo-manager\\.elf$"
+  },
+  {
+    "name": "ps5-dump-forge",
+    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+    "description": "A toolkit for working with PS5 game dumps",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$"
+  },
+  {
+    "name": "LiveShell",
+    "source": "https://github.com/ZiZc3/LiveShell/releases",
+    "description": "Animated backgrounds for PS5 home screen.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^liveshell\\.elf$"
+  },
+  {
+    "name": "ps4mount",
+    "source": "https://github.com/gasb07/ps4mount/releases",
+    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps4mount\\.elf$"
+  },
+  {
+    "name": "WelcomeHubActivator",
+    "source": "https://github.com/ghost1372/WelcomeHubActivator/releases",
+    "description": "A PS5 ELF payload that enables the Welcome Hub.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^WelcomeHubActivator-v[^/]+\\.elf$"
+  },
+  {
+    "name": "PS5Save",
+    "source": "https://github.com/heni0xyz/PS5Save/releases",
+    "description": "USB save backup utility for jailbroken PS5’s",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^backup\\.elf$"
   }
 ]
