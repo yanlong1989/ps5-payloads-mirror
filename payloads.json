@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "NeoEnabler",
+    "source": "https://github.com/gasb07/NeoEnabler/releases",
+    "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^neo-manager\\.elf$",
+    "filename": "NeoEnabler_v0.6.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.1.elf",
+    "version": "v0.6.1",
+    "last_update": "2026-10-31",
+    "source_direct": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.1/neo-manager.elf",
+    "checksum": "7c8ffd95a44c50103942b2196ebf83a34aefb537204427f7791f64118db63c95",
+    "payload_size": 324440,
+    "source_asset": {
+      "release_id": 430111213,
+      "id": 696146041,
+      "name": "neo-manager.elf",
+      "size": 324440,
+      "updated_at": "2026-10-31T18:29:16Z",
+      "digest": "sha256:7c8ffd95a44c50103942b2196ebf83a34aefb537204427f7791f64118db63c95",
+      "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.1/neo-manager.elf"
+    }
+  },
+  {
     "name": "ps4mount",
     "source": "https://github.com/gasb07/ps4mount/releases",
     "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
@@ -42,29 +65,6 @@
       "updated_at": "2026-10-29T16:15:46Z",
       "digest": "sha256:30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
       "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf"
-    }
-  },
-  {
-    "name": "NeoEnabler",
-    "source": "https://github.com/gasb07/NeoEnabler/releases",
-    "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^neo-manager\\.elf$",
-    "filename": "NeoEnabler_v0.6.0.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.0.elf",
-    "version": "v0.6.0",
-    "last_update": "2026-10-29",
-    "source_direct": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.0/neo-manager.elf",
-    "checksum": "e1db4f5220a3b99453e422162ec50da6bb44c6b52a6fa125d782d2ab0dffa75b",
-    "payload_size": 324400,
-    "source_asset": {
-      "release_id": 428195359,
-      "id": 689368556,
-      "name": "neo-manager.elf",
-      "size": 324400,
-      "updated_at": "2026-10-29T17:39:31Z",
-      "digest": "sha256:e1db4f5220a3b99453e422162ec50da6bb44c6b52a6fa125d782d2ab0dffa75b",
-      "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.0/neo-manager.elf"
     }
   },
   {
