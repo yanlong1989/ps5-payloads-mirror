@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "ps5-dump-forge",
+    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+    "description": "A toolkit for working with PS5 game dumps",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
+    "filename": "ps5-dump-forge_v0.5.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.1.elf",
+    "version": "v0.5.1",
+    "last_update": "2026-11-01",
+    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.1/ps5-dump-forge-0.5.1-ps5.elf",
+    "checksum": "864cf7c0739e9f411c596873c3c2fb482a2ebb2be207bf7bd1ac558e4699156f",
+    "payload_size": 17533936,
+    "source_asset": {
+      "release_id": 430413222,
+      "id": 697587672,
+      "name": "ps5-dump-forge-0.5.1-ps5.elf",
+      "size": 17533936,
+      "updated_at": "2026-11-01T06:55:30Z",
+      "digest": "sha256:864cf7c0739e9f411c596873c3c2fb482a2ebb2be207bf7bd1ac558e4699156f",
+      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.1/ps5-dump-forge-0.5.1-ps5.elf"
+    }
+  },
+  {
     "name": "NeoEnabler",
     "source": "https://github.com/gasb07/NeoEnabler/releases",
     "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
@@ -65,29 +88,6 @@
       "updated_at": "2026-10-29T16:15:46Z",
       "digest": "sha256:30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
       "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf"
-    }
-  },
-  {
-    "name": "ps5-dump-forge",
-    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
-    "description": "A toolkit for working with PS5 game dumps",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
-    "filename": "ps5-dump-forge_v0.5.0.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.0.elf",
-    "version": "v0.5.0",
-    "last_update": "2026-10-29",
-    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.0/ps5-dump-forge-0.5.0-ps5.elf",
-    "checksum": "f0cc32e772318f1ae53f1eccae207cb9aa1efb96d1a2a6249205bb3e0e478986",
-    "payload_size": 19860336,
-    "source_asset": {
-      "release_id": 428204826,
-      "id": 689391064,
-      "name": "ps5-dump-forge-0.5.0-ps5.elf",
-      "size": 19860336,
-      "updated_at": "2026-10-29T17:47:18Z",
-      "digest": "sha256:f0cc32e772318f1ae53f1eccae207cb9aa1efb96d1a2a6249205bb3e0e478986",
-      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.0/ps5-dump-forge-0.5.0-ps5.elf"
     }
   },
   {
