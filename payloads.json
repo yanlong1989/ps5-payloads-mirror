@@ -68,6 +68,28 @@
     }
   },
   {
+    "name": "CheatRunner",
+    "filename": "CheatRunner_v0.18.1.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.1.elf",
+    "source": "https://github.com/notmaj0r/CheatRunner/releases",
+    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18.1/CheatRunner.elf",
+    "description": "Web-based game cheat trainer",
+    "last_update": "2026-11-03",
+    "version": "v0.18.1",
+    "category": "Utilities & Tools",
+    "checksum": "80535260027983f09fc9d131e11e13591de61ef5eeea458825598263862d2ce8",
+    "payload_size": 8289200,
+    "source_asset": {
+      "release_id": 433166889,
+      "id": 706941738,
+      "name": "CheatRunner.elf",
+      "size": 8289200,
+      "updated_at": "2026-11-03T20:11:23Z",
+      "digest": "sha256:80535260027983f09fc9d131e11e13591de61ef5eeea458825598263862d2ce8",
+      "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18.1/CheatRunner.elf"
+    }
+  },
+  {
     "name": "ps4mount",
     "source": "https://github.com/gasb07/ps4mount/releases",
     "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
@@ -403,28 +425,6 @@
       "updated_at": "2026-10-10T15:38:09Z",
       "digest": "sha256:82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
       "url": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf"
-    }
-  },
-  {
-    "name": "CheatRunner",
-    "filename": "CheatRunner_v0.18.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.elf",
-    "source": "https://github.com/notmaj0r/CheatRunner/releases",
-    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
-    "description": "Web-based game cheat trainer",
-    "last_update": "2026-10-10",
-    "version": "v0.18",
-    "category": "Utilities & Tools",
-    "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
-    "payload_size": 8272800,
-    "source_asset": {
-      "release_id": 409110768,
-      "id": 628618191,
-      "name": "CheatRunner.elf",
-      "size": 8272800,
-      "updated_at": "2026-10-10T17:56:27Z",
-      "digest": "sha256:4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
-      "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf"
     }
   },
   {
