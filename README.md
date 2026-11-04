@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v11.0.5` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-04` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.0.5.elf) |
+| **ps5upload** | `v11.0.6` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-04` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.0.6.elf) |
 | **ps5-dump-forge** | `v0.5.2` | A toolkit for working with PS5 game dumps | `2026-11-03` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.2.elf) |
 | **NeoEnabler** | `v0.6.2` | Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions | `2026-11-03` | [Source](https://github.com/gasb07/NeoEnabler/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.2.elf) |
 | **CheatRunner** | `v0.18.1` | Web-based game cheat trainer | `2026-11-03` | [Source](https://github.com/notmaj0r/CheatRunner/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.1.elf) |
