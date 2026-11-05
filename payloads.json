@@ -67,6 +67,29 @@
     }
   },
   {
+    "name": "ps4mount",
+    "source": "https://github.com/gasb07/ps4mount/releases",
+    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps4mount\\.elf$",
+    "filename": "ps4mount_v0.7.3.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.3.elf",
+    "version": "v0.7.3",
+    "last_update": "2026-11-05",
+    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.3/ps4mount.elf",
+    "checksum": "f107a443aa83196744deeefe748a7f09d8b8b340a30df1b232535b6ee0f15127",
+    "payload_size": 1551720,
+    "source_asset": {
+      "release_id": 435492456,
+      "id": 714169818,
+      "name": "ps4mount.elf",
+      "size": 1551720,
+      "updated_at": "2026-11-05T17:13:27Z",
+      "digest": "sha256:f107a443aa83196744deeefe748a7f09d8b8b340a30df1b232535b6ee0f15127",
+      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.3/ps4mount.elf"
+    }
+  },
+  {
     "name": "NeoEnabler",
     "source": "https://github.com/gasb07/NeoEnabler/releases",
     "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
@@ -109,29 +132,6 @@
       "updated_at": "2026-11-03T20:11:23Z",
       "digest": "sha256:80535260027983f09fc9d131e11e13591de61ef5eeea458825598263862d2ce8",
       "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18.1/CheatRunner.elf"
-    }
-  },
-  {
-    "name": "ps4mount",
-    "source": "https://github.com/gasb07/ps4mount/releases",
-    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps4mount\\.elf$",
-    "filename": "ps4mount_v0.7.2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.2.elf",
-    "version": "v0.7.2",
-    "last_update": "2026-10-29",
-    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf",
-    "checksum": "30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
-    "payload_size": 1543448,
-    "source_asset": {
-      "release_id": 428103365,
-      "id": 689131461,
-      "name": "ps4mount.elf",
-      "size": 1543448,
-      "updated_at": "2026-10-29T16:15:46Z",
-      "digest": "sha256:30627513e950f6b7b6b0e5ca43c30e954cdd873a646b8beefe0a4a925ac28479",
-      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.2/ps4mount.elf"
     }
   },
   {
