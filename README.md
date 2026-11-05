@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v11.2.0` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-05` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.2.0.elf) |
+| **ps5upload** | `v11.2.1` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-05` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.2.1.elf) |
 | **garlic-savemgr** | `v1.15-beta4` | PS5 save decrypt/encrypt/browse with embedded web UI. | `2026-11-05` | [Source](https://git.etawen.dev/earthonion/garlic-savemgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta4.elf) |
 | **ps5-dump-forge** | `v0.5.3` | A toolkit for working with PS5 game dumps | `2026-11-05` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.3.elf) |
 | **NeoEnabler** | `v0.6.2` | Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions | `2026-11-03` | [Source](https://github.com/gasb07/NeoEnabler/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.2.elf) |
