@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v11.3.0` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-07` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.3.0.elf) |
+| **ps5upload** | `v11.4.0` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-07` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v11.4.0.elf) |
 | **garlic-savemgr** | `v1.15-beta12` | PS5 save decrypt/encrypt/browse with embedded web UI. | `2026-11-06` | [Source](https://git.etawen.dev/earthonion/garlic-savemgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta12.elf) |
 | **ps5-dump-forge** | `v0.5.4` | A toolkit for working with PS5 game dumps | `2026-11-06` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.4.elf) |
 | **WebKit-Autoloader-Installer** | `v0.7.0` | Installs WebKit Autoloader on homescreen (FW 7.00-13.60) | `2026-11-06` | [Source](https://github.com/itsPLK/ps5-webkit-autoloader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.7.0.elf) |
