@@ -90,6 +90,28 @@
     }
   },
   {
+    "name": "ftpsrv",
+    "filename": "ftpsrv_v0.22.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.22.elf",
+    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
+    "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.22/ftpsrv-ps5.elf",
+    "description": "A simple FTP server that accepts connections on port 2121",
+    "last_update": "2026-11-08",
+    "version": "v0.22",
+    "category": "Networking & Servers",
+    "checksum": "41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
+    "payload_size": 192432,
+    "source_asset": {
+      "release_id": 438540717,
+      "id": 725276318,
+      "name": "ftpsrv-ps5.elf",
+      "size": 192432,
+      "updated_at": "2026-11-08T21:40:55Z",
+      "digest": "sha256:41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
+      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.22/ftpsrv-ps5.elf"
+    }
+  },
+  {
     "name": "ps5-dump-forge",
     "source": "https://github.com/quer3q/ps5-dump-forge/releases",
     "description": "A toolkit for working with PS5 game dumps",
@@ -558,28 +580,6 @@
       "updated_at": "2026-08-24T14:44:15Z",
       "digest": "sha256:91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
       "url": "https://github.com/kerrdec97/ps5-date-time-sync/releases/download/v1.0.0/ps5-date-time-sync.elf"
-    }
-  },
-  {
-    "name": "ftpsrv",
-    "filename": "ftpsrv_v0.21.1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
-    "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
-    "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf",
-    "description": "A simple FTP server that accepts connections on port 2121",
-    "last_update": "2026-08-20",
-    "version": "v0.21.1",
-    "category": "Networking & Servers",
-    "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-    "payload_size": 191864,
-    "source_asset": {
-      "release_id": 373896547,
-      "id": 522536065,
-      "name": "ftpsrv-ps5.elf",
-      "size": 191864,
-      "updated_at": "2026-08-20T17:02:49Z",
-      "digest": "sha256:7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf"
     }
   },
   {
