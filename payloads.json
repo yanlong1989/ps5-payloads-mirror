@@ -44,6 +44,29 @@
     }
   },
   {
+    "name": "LiveShell",
+    "source": "https://github.com/ZiZc3/LiveShell/releases",
+    "description": "Animated backgrounds for PS5 home screen.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^liveshell\\.elf$",
+    "filename": "LiveShell_v1.7.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/LiveShell_v1.7.0.elf",
+    "version": "v1.7.0",
+    "last_update": "2026-11-10",
+    "source_direct": "https://github.com/ZiZc3/LiveShell/releases/download/v1.7.0/liveshell.elf",
+    "checksum": "56ffecdb1a02f28044f4426729a4b1b3027e68a52d057c723a1d4c27e5f298fa",
+    "payload_size": 1476744,
+    "source_asset": {
+      "release_id": 440671052,
+      "id": 732402024,
+      "name": "liveshell.elf",
+      "size": 1476744,
+      "updated_at": "2026-11-10T17:58:03Z",
+      "digest": "sha256:56ffecdb1a02f28044f4426729a4b1b3027e68a52d057c723a1d4c27e5f298fa",
+      "url": "https://github.com/ZiZc3/LiveShell/releases/download/v1.7.0/liveshell.elf"
+    }
+  },
+  {
     "name": "ps5-dump-forge",
     "source": "https://github.com/quer3q/ps5-dump-forge/releases",
     "description": "A toolkit for working with PS5 game dumps",
@@ -245,29 +268,6 @@
       "updated_at": "2026-10-28T09:17:36Z",
       "digest": "sha256:8f78ac0cde64a0744b82663d4a6bf8c1d7e937876dceddc219a21164578bd96e",
       "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-zhttp-v1.7.0.elf"
-    }
-  },
-  {
-    "name": "LiveShell",
-    "source": "https://github.com/ZiZc3/LiveShell/releases",
-    "description": "Animated backgrounds for PS5 home screen.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^liveshell\\.elf$",
-    "filename": "LiveShell_v1.6.0.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/LiveShell_v1.6.0.elf",
-    "version": "v1.6.0",
-    "last_update": "2026-10-26",
-    "source_direct": "https://github.com/ZiZc3/LiveShell/releases/download/v1.6.0/liveshell.elf",
-    "checksum": "99335e75312d6ffcce91f6a5b659f0191ec057c744b2b3d5b899db5a88b80ac3",
-    "payload_size": 1427560,
-    "source_asset": {
-      "release_id": 424821109,
-      "id": 679623091,
-      "name": "liveshell.elf",
-      "size": 1427560,
-      "updated_at": "2026-10-26T22:06:11Z",
-      "digest": "sha256:99335e75312d6ffcce91f6a5b659f0191ec057c744b2b3d5b899db5a88b80ac3",
-      "url": "https://github.com/ZiZc3/LiveShell/releases/download/v1.6.0/liveshell.elf"
     }
   },
   {
