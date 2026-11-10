@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v12.4.5` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-10` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.5.elf) |
+| **ps5upload** | `v12.4.6` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-10` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.6.elf) |
 | **ps5-web-file-manager** | `v1.14` | A file manager for PS5 with a web UI | `2026-11-10` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.14.elf) |
 | **LiveShell** | `v1.7.0` | Animated backgrounds for PS5 home screen. | `2026-11-10` | [Source](https://github.com/ZiZc3/LiveShell/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/LiveShell_v1.7.0.elf) |
 | **ps5-dump-forge** | `v0.5.5` | A toolkit for working with PS5 game dumps | `2026-11-09` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.5.elf) |
