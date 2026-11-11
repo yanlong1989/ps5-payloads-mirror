@@ -22,6 +22,28 @@
     }
   },
   {
+    "name": "garlic-savemgr",
+    "filename": "garlic-savemgr_v1.15-beta22.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta22.elf",
+    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
+    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta22/garlic-savemgr.elf",
+    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+    "last_update": "2026-11-11",
+    "version": "v1.15-beta22",
+    "category": "Utilities & Tools",
+    "checksum": "fb8e0860161e3235e57bc9239d61d2b6483cf45395253745c05d34a3c9ebf1ca",
+    "payload_size": 1846960,
+    "source_asset": {
+      "release_id": 27878,
+      "id": 1849,
+      "name": "garlic-savemgr.elf",
+      "size": 1846960,
+      "updated_at": null,
+      "digest": null,
+      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta22/garlic-savemgr.elf"
+    }
+  },
+  {
     "name": "ps5-web-file-manager",
     "filename": "ps5-web-file-manager_v1.14.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.14.elf",
@@ -109,28 +131,6 @@
       "updated_at": "2026-11-08T00:52:42Z",
       "digest": "sha256:df60538570e9811bb0b4652a3fdb3e1a35ec3455b3ca7c80edc4140c5bb47ce2",
       "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.1/webkit-autoloader-installer_v0.7.1.elf"
-    }
-  },
-  {
-    "name": "garlic-savemgr",
-    "filename": "garlic-savemgr_v1.15-beta16.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta16.elf",
-    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta16/garlic-savemgr.elf",
-    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-    "last_update": "2026-11-08",
-    "version": "v1.15-beta16",
-    "category": "Utilities & Tools",
-    "checksum": "d6a6048e6b5b56a30d07c926155b18d4b95e07b96dbf7631d1e8ded765880471",
-    "payload_size": 1841600,
-    "source_asset": {
-      "release_id": 27848,
-      "id": 1820,
-      "name": "garlic-savemgr.elf",
-      "size": 1841600,
-      "updated_at": null,
-      "digest": null,
-      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta16/garlic-savemgr.elf"
     }
   },
   {
