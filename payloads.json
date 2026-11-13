@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "ps4mount",
+    "source": "https://github.com/gasb07/ps4mount/releases",
+    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps4mount\\.elf$",
+    "filename": "ps4mount_v0.8.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.8.0.elf",
+    "version": "v0.8.0",
+    "last_update": "2026-11-13",
+    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.8.0/ps4mount.elf",
+    "checksum": "2f7d548cdb5c2beba631299fa9f1e5c18cca65c648443f9f36ffab9940a6a5ac",
+    "payload_size": 1551472,
+    "source_asset": {
+      "release_id": 444753697,
+      "id": 745236383,
+      "name": "ps4mount.elf",
+      "size": 1551472,
+      "updated_at": "2026-11-13T21:24:31Z",
+      "digest": "sha256:2f7d548cdb5c2beba631299fa9f1e5c18cca65c648443f9f36ffab9940a6a5ac",
+      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.8.0/ps4mount.elf"
+    }
+  },
+  {
     "name": "garlic-savemgr",
     "filename": "garlic-savemgr_v1.15-beta23.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta23.elf",
@@ -177,29 +200,6 @@
       "updated_at": "2026-11-08T21:40:55Z",
       "digest": "sha256:41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
       "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.22/ftpsrv-ps5.elf"
-    }
-  },
-  {
-    "name": "ps4mount",
-    "source": "https://github.com/gasb07/ps4mount/releases",
-    "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps4mount\\.elf$",
-    "filename": "ps4mount_v0.7.3.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.3.elf",
-    "version": "v0.7.3",
-    "last_update": "2026-11-05",
-    "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.3/ps4mount.elf",
-    "checksum": "f107a443aa83196744deeefe748a7f09d8b8b340a30df1b232535b6ee0f15127",
-    "payload_size": 1551720,
-    "source_asset": {
-      "release_id": 435492456,
-      "id": 714169818,
-      "name": "ps4mount.elf",
-      "size": 1551720,
-      "updated_at": "2026-11-05T17:13:27Z",
-      "digest": "sha256:f107a443aa83196744deeefe748a7f09d8b8b340a30df1b232535b6ee0f15127",
-      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.3/ps4mount.elf"
     }
   },
   {
