@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v12.4.17` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-13` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.17.elf) |
+| **ps5upload** | `v12.4.18` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-14` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.18.elf) |
 | **ps4mount** | `v0.8.0` | Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them. | `2026-11-13` | [Source](https://github.com/gasb07/ps4mount/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.8.0.elf) |
 | **garlic-savemgr** | `v1.15-beta23` | PS5 save decrypt/encrypt/browse with embedded web UI. | `2026-11-11` | [Source](https://git.etawen.dev/earthonion/garlic-savemgr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.15-beta23.elf) |
 | **ps5-web-file-manager** | `v1.14` | A file manager for PS5 with a web UI | `2026-11-10` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.14.elf) |
