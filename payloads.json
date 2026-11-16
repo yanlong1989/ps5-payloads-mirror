@@ -45,6 +45,29 @@
     }
   },
   {
+    "name": "ps5-dump-forge",
+    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+    "description": "A toolkit for working with PS5 game dumps",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
+    "filename": "ps5-dump-forge_v0.5.6.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.6.elf",
+    "version": "v0.5.6",
+    "last_update": "2026-11-16",
+    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.6/ps5-dump-forge-0.5.6-ps5.elf",
+    "checksum": "f0415aab6ded1cdf875418b6683ab56aeae3721492af99fba71b08c2c351f82f",
+    "payload_size": 18549840,
+    "source_asset": {
+      "release_id": 447217440,
+      "id": 755341857,
+      "name": "ps5-dump-forge-0.5.6-ps5.elf",
+      "size": 18549840,
+      "updated_at": "2026-11-16T15:23:01Z",
+      "digest": "sha256:f0415aab6ded1cdf875418b6683ab56aeae3721492af99fba71b08c2c351f82f",
+      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.6/ps5-dump-forge-0.5.6-ps5.elf"
+    }
+  },
+  {
     "name": "PS5Save",
     "source": "https://github.com/heni0xyz/PS5Save/releases",
     "description": "USB save backup utility for jailbroken PS5’s",
@@ -155,29 +178,6 @@
       "updated_at": "2026-11-10T21:34:10Z",
       "digest": "sha256:c16ddbdf5e84698281a5a18b48be4b1d3d9e153e704bcb6b8eaabe2c27fe95eb",
       "url": "https://github.com/ZiZc3/LiveShell/releases/download/v1.7.0/liveshell.elf"
-    }
-  },
-  {
-    "name": "ps5-dump-forge",
-    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
-    "description": "A toolkit for working with PS5 game dumps",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
-    "filename": "ps5-dump-forge_v0.5.5.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.5.elf",
-    "version": "v0.5.5",
-    "last_update": "2026-11-09",
-    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.5/ps5-dump-forge-0.5.5-ps5.elf",
-    "checksum": "858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
-    "payload_size": 18140240,
-    "source_asset": {
-      "release_id": 439593709,
-      "id": 728830980,
-      "name": "ps5-dump-forge-0.5.5-ps5.elf",
-      "size": 18140240,
-      "updated_at": "2026-11-09T20:15:41Z",
-      "digest": "sha256:858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
-      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.5/ps5-dump-forge-0.5.5-ps5.elf"
     }
   },
   {
