@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "kraken-mount",
+    "source": "https://github.com/quer3q/kraken-mount/releases",
+    "description": "Mounts PS5 game dumps from PKG, folders, and compressed images.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^kraken-mount\\.elf$",
+    "filename": "kraken-mount_v0.3.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.3.0.elf",
+    "version": "v0.3.0",
+    "last_update": "2026-11-18",
+    "source_direct": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.0/kraken-mount.elf",
+    "checksum": "092623a204b707b89d0867a0087f9dd1c430eef6a22db497f03b59aaf1297bfe",
+    "payload_size": 6355424,
+    "source_asset": {
+      "release_id": 450240005,
+      "id": 764079637,
+      "name": "kraken-mount.elf",
+      "size": 6355424,
+      "updated_at": "2026-11-18T16:16:19Z",
+      "digest": "sha256:092623a204b707b89d0867a0087f9dd1c430eef6a22db497f03b59aaf1297bfe",
+      "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.0/kraken-mount.elf"
+    }
+  },
+  {
     "name": "NeoEnabler",
     "source": "https://github.com/gasb07/NeoEnabler/releases",
     "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
@@ -757,12 +780,5 @@
       "digest": "sha256:4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
       "url": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin"
     }
-  },
-  {
-    "name": "kraken-mount",
-    "source": "https://github.com/quer3q/kraken-mount/releases",
-    "description": "Mounts PS5 game dumps from PKG, folders, and compressed images.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^kraken-mount\\.elf$"
   }
 ]
