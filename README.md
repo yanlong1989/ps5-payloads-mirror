@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **WebKit-Autoloader-Installer** | `v0.8.1` | Installs WebKit Autoloader on homescreen (FW 7.00-13.60) | `2026-11-20` | [Source](https://github.com/itsPLK/ps5-webkit-autoloader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.1.elf) |
+| **WebKit-Autoloader-Installer** | `v0.8.2` | Installs WebKit Autoloader on homescreen (FW 7.00-13.60) | `2026-11-20` | [Source](https://github.com/itsPLK/ps5-webkit-autoloader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.2.elf) |
 | **ps5upload** | `v12.6.13` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-19` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.13.elf) |
 | **elfldr** | `v0.28` | An ELF loader for jailbroken PS5s that accepts payloads on port 9021 | `2026-11-19` | [Source](https://github.com/ps5-payload-dev/elfldr/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.28.elf) |
 | **kraken-mount** | `v0.3.0` | Mounts PS5 game dumps from PKG, folders, and compressed images. | `2026-11-18` | [Source](https://github.com/quer3q/kraken-mount/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.3.0.elf) |

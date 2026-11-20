@@ -1,24 +1,24 @@
 [
   {
     "name": "WebKit-Autoloader-Installer",
-    "filename": "WebKit-Autoloader-Installer_v0.8.1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.1.elf",
+    "filename": "WebKit-Autoloader-Installer_v0.8.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.2.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.1/webkit-autoloader-installer_v0.8.1.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
     "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
     "last_update": "2026-11-20",
-    "version": "v0.8.1",
+    "version": "v0.8.2",
     "category": "Loaders",
-    "checksum": "1144f939f62c9d80a73aafb576ba5e7091966f1e48491d19bd97ec825934145c",
+    "checksum": "1c415bc124944c85b86a4751006b98010b977f142142d67306d13804899bad54",
     "payload_size": 1885440,
     "source_asset": {
-      "release_id": 452385561,
-      "id": 770881127,
-      "name": "webkit-autoloader-installer_v0.8.1.elf",
+      "release_id": 452587459,
+      "id": 771499608,
+      "name": "webkit-autoloader-installer_v0.8.2.elf",
       "size": 1885440,
-      "updated_at": "2026-11-20T07:25:59Z",
-      "digest": "sha256:1144f939f62c9d80a73aafb576ba5e7091966f1e48491d19bd97ec825934145c",
-      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.1/webkit-autoloader-installer_v0.8.1.elf"
+      "updated_at": "2026-11-20T11:04:23Z",
+      "digest": "sha256:1c415bc124944c85b86a4751006b98010b977f142142d67306d13804899bad54",
+      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf"
     }
   },
   {
