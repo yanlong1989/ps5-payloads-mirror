@@ -1,24 +1,24 @@
 [
   {
     "name": "WebKit-Autoloader-Installer",
-    "filename": "WebKit-Autoloader-Installer_v0.8.2.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.2.elf",
+    "filename": "WebKit-Autoloader-Installer_v0.8.3.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.3.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.3/webkit-autoloader-installer_v0.8.3.elf",
     "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
-    "last_update": "2026-11-20",
-    "version": "v0.8.2",
+    "last_update": "2026-11-21",
+    "version": "v0.8.3",
     "category": "Loaders",
-    "checksum": "1c415bc124944c85b86a4751006b98010b977f142142d67306d13804899bad54",
+    "checksum": "f4b0dee9af572ea1cb77aaf1e6fc5bf8ef520fc0a0a30753dd94a5cbdc04dd8e",
     "payload_size": 1885440,
     "source_asset": {
-      "release_id": 452587459,
-      "id": 771499608,
-      "name": "webkit-autoloader-installer_v0.8.2.elf",
+      "release_id": 453602885,
+      "id": 775170848,
+      "name": "webkit-autoloader-installer_v0.8.3.elf",
       "size": 1885440,
-      "updated_at": "2026-11-20T11:04:23Z",
-      "digest": "sha256:1c415bc124944c85b86a4751006b98010b977f142142d67306d13804899bad54",
-      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf"
+      "updated_at": "2026-11-21T10:15:20Z",
+      "digest": "sha256:f4b0dee9af572ea1cb77aaf1e6fc5bf8ef520fc0a0a30753dd94a5cbdc04dd8e",
+      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.3/webkit-autoloader-installer_v0.8.3.elf"
     }
   },
   {
