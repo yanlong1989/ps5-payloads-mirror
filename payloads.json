@@ -1,5 +1,27 @@
 [
   {
+    "name": "ps5upload",
+    "filename": "ps5upload_v12.6.18.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.18.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.18/ps5upload-12.6.18.elf",
+    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
+    "last_update": "2026-11-22",
+    "version": "v12.6.18",
+    "category": "Networking & Servers",
+    "checksum": "6a1264fc02d39617c19b8cbe1afa381d6cb002c235e45cceebb310ba512aa4c1",
+    "payload_size": 12172504,
+    "source_asset": {
+      "release_id": 454142086,
+      "id": 777602435,
+      "name": "ps5upload-12.6.18.elf",
+      "size": 12172504,
+      "updated_at": "2026-11-22T02:27:43Z",
+      "digest": "sha256:6a1264fc02d39617c19b8cbe1afa381d6cb002c235e45cceebb310ba512aa4c1",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.18/ps5upload-12.6.18.elf"
+    }
+  },
+  {
     "name": "WebKit-Autoloader-Installer",
     "filename": "WebKit-Autoloader-Installer_v0.8.3.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.3.elf",
@@ -42,28 +64,6 @@
       "updated_at": "2026-11-20T12:07:44Z",
       "digest": "sha256:3ec636a6b42ceff61ac7aa47e0ed01a41be851da94cfcf3158811995ea868b27",
       "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.1/kraken-mount.elf"
-    }
-  },
-  {
-    "name": "ps5upload",
-    "filename": "ps5upload_v12.6.16.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.16.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.16/ps5upload-12.6.16.elf",
-    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-    "last_update": "2026-11-20",
-    "version": "v12.6.16",
-    "category": "Networking & Servers",
-    "checksum": "e02f0251c60e3de979e99b37b2f5276f7887a535223f78f35daf73735cea6576",
-    "payload_size": 12172192,
-    "source_asset": {
-      "release_id": 453071608,
-      "id": 772983172,
-      "name": "ps5upload-12.6.16.elf",
-      "size": 12172192,
-      "updated_at": "2026-11-20T18:59:25Z",
-      "digest": "sha256:e02f0251c60e3de979e99b37b2f5276f7887a535223f78f35daf73735cea6576",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.16/ps5upload-12.6.16.elf"
     }
   },
   {
