@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v12.6.22` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-22` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.22.elf) |
+| **ps5upload** | `v12.6.23` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-23` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.23.elf) |
 | **ps5-dump-forge** | `v0.5.7` | A toolkit for working with PS5 game dumps | `2026-11-22` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.7.elf) |
 | **WebKit-Autoloader-Installer** | `v0.8.3` | Installs WebKit Autoloader on homescreen (FW 7.00-13.60) | `2026-11-21` | [Source](https://github.com/itsPLK/ps5-webkit-autoloader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.3.elf) |
 | **kraken-mount** | `v0.3.1` | Mounts PS5 game dumps from PKG, folders, and compressed images. | `2026-11-20` | [Source](https://github.com/quer3q/kraken-mount/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.3.1.elf) |
