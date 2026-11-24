@@ -22,6 +22,29 @@
     }
   },
   {
+    "name": "kraken-mount",
+    "source": "https://github.com/quer3q/kraken-mount/releases",
+    "description": "Mounts PS5 game dumps from PKG, folders, and compressed images.",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^kraken-mount\\.elf$",
+    "filename": "kraken-mount_v0.3.2.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.3.2.elf",
+    "version": "v0.3.2",
+    "last_update": "2026-11-24",
+    "source_direct": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.2/kraken-mount.elf",
+    "checksum": "5b72ea22af0b28dd3522be4a4f10cbec9b5423fbe2e4e8990b45b4d1daeabdde",
+    "payload_size": 6552144,
+    "source_asset": {
+      "release_id": 456541337,
+      "id": 786518963,
+      "name": "kraken-mount.elf",
+      "size": 6552144,
+      "updated_at": "2026-11-24T09:29:35Z",
+      "digest": "sha256:5b72ea22af0b28dd3522be4a4f10cbec9b5423fbe2e4e8990b45b4d1daeabdde",
+      "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.2/kraken-mount.elf"
+    }
+  },
+  {
     "name": "WebKit-Autoloader-Installer",
     "filename": "WebKit-Autoloader-Installer_v0.8.4.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.8.4.elf",
@@ -64,29 +87,6 @@
       "updated_at": "2026-11-22T17:09:31Z",
       "digest": "sha256:83a7e82a9070a671953d96e4acfc909697505281e4a023a2c6411316c2c1ce6c",
       "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.7/ps5-dump-forge-0.5.7-ps5.elf"
-    }
-  },
-  {
-    "name": "kraken-mount",
-    "source": "https://github.com/quer3q/kraken-mount/releases",
-    "description": "Mounts PS5 game dumps from PKG, folders, and compressed images.",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^kraken-mount\\.elf$",
-    "filename": "kraken-mount_v0.3.1.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.3.1.elf",
-    "version": "v0.3.1",
-    "last_update": "2026-11-20",
-    "source_direct": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.1/kraken-mount.elf",
-    "checksum": "3ec636a6b42ceff61ac7aa47e0ed01a41be851da94cfcf3158811995ea868b27",
-    "payload_size": 6355424,
-    "source_asset": {
-      "release_id": 452647756,
-      "id": 771689475,
-      "name": "kraken-mount.elf",
-      "size": 6355424,
-      "updated_at": "2026-11-20T12:07:44Z",
-      "digest": "sha256:3ec636a6b42ceff61ac7aa47e0ed01a41be851da94cfcf3158811995ea868b27",
-      "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.1/kraken-mount.elf"
     }
   },
   {
