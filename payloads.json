@@ -517,6 +517,14 @@
     }
   },
   {
+    "name": "kstuff-lite-drakmor",
+    "source": "https://github.com/drakmor/kstuff-lite/releases",
+    "description": "Drakmor's kstuff-lite variant (includes test builds)",
+    "category": "System & Jailbreak",
+    "asset_pattern": "^kstuff\\.elf$",
+    "include_prereleases": true
+  },
+  {
     "name": "kstuff-lite",
     "filename": "kstuff-lite_v1.11.elf",
     "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",

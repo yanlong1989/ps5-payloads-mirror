@@ -6,7 +6,7 @@
 
 本仓库由 Cloudflare 在每小时第 7 分钟触发 GitHub Actions，GitHub 原生第 17 分钟定时任务保留作为备用，也可从 Actions 手动运行。下载、SHA-256 校验和上传成功后才更新目录；无变化时跳过下载。每个项目仅保留目录指向的当前版本。完整同步和目录提交成功后，核验全部当前文件，再清理本仓库自动上传的旧 ELF/BIN 文件。同版本替换文件使用带摘要的新文件名，旧文件在新文件发布成功后清理。同步或提交失败时跳过清理，保留原目录记录和文件；手工上传及未知项目的文件保留，运行报告列出原因与清理结果。
 
-默认跟踪稳定版；ShadowMountPlus 也跟踪预发布版。可在 `payloads.json` 为其他项目设置 `include_prereleases: true`。`SHA256SUMS` 列出当前文件的校验值。
+默认跟踪稳定版；ShadowMountPlus 和 kstuff-lite-drakmor 也跟踪预发布版。可在 `payloads.json` 为其他项目设置 `include_prereleases: true`。`SHA256SUMS` 列出当前文件的校验值。
 
 Cloudflare 通过仅安装到本仓库的 GitHub App 自动签发短期令牌；配置与复现步骤见 [scheduler/README.md](scheduler/README.md)。2026-10-12 18:07（北京时间）的正式小时任务已自然触发并完成，检查 26 个来源，失败 0 个：[运行记录](https://github.com/yanlong1989/ps5-payloads-mirror/actions/runs/38234349086)。GitHub 原生定时可能延迟或漏跑。成功完整检查后，每 28 天刷新健康记录，以保持仓库活动。
 
@@ -64,6 +64,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 | **PKG-Manager** | `v1.5.1` | Browse and install PKGs from USB, disc, or SMB shares directly on your PS5 | `2026-10-10` | [Source](https://github.com/itsPLK/ps5-pkg-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf) |
 | **ps5-app-dumper** | `v2.10` | A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device. | `2026-10-03` | [Source](https://github.com/EchoStretch/ps5-app-dumper/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.10.elf) |
 | **ps5debug-NG** | `1.3.2` | PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore. | `2026-09-23` | [Source](https://github.com/Pharaoh2k/ps5debug-NG/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf) |
+| **kstuff-lite-drakmor** | `pending` | Drakmor's kstuff-lite variant (includes test builds) | `pending` | [Source](https://github.com/drakmor/kstuff-lite/releases) | Pending first sync |
 | **kstuff-lite** | `v1.11` | Lite version of kstuff | `2026-09-20` | [Source](https://github.com/EchoStretch/kstuff-lite/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf) |
 | **ftpsrv-drakmor** | `1.16-ng-stable` | drakmor's fork of ftpsrv | `2026-09-20` | [Source](https://github.com/drakmor/ftpsrv/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf) |
 | **ps5-linux-loader** | `v2.5` | Linux payload implementing HV exploits to run a custom bootloader | `2026-09-05` | [Source](https://github.com/ps5-linux/ps5-linux-loader/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf) |
