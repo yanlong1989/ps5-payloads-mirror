@@ -44,6 +44,29 @@
     }
   },
   {
+    "name": "ps5-dump-forge",
+    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+    "description": "A toolkit for working with PS5 game dumps",
+    "category": "Utilities & Tools",
+    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
+    "filename": "ps5-dump-forge_v0.6.0.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.6.0.elf",
+    "version": "v0.6.0",
+    "last_update": "2026-11-26",
+    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.6.0/ps5-dump-forge-0.6.0-ps5.elf",
+    "checksum": "420265c626d517ed433ecf360092dc28e1061fd0ac29346de488c41cde3ac0d2",
+    "payload_size": 18877632,
+    "source_asset": {
+      "release_id": 459652184,
+      "id": 796722440,
+      "name": "ps5-dump-forge-0.6.0-ps5.elf",
+      "size": 18877632,
+      "updated_at": "2026-11-26T16:21:29Z",
+      "digest": "sha256:420265c626d517ed433ecf360092dc28e1061fd0ac29346de488c41cde3ac0d2",
+      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.6.0/ps5-dump-forge-0.6.0-ps5.elf"
+    }
+  },
+  {
     "name": "kraken-mount",
     "source": "https://github.com/quer3q/kraken-mount/releases",
     "description": "Mounts PS5 game dumps from PKG, folders, and compressed images.",
@@ -86,29 +109,6 @@
       "updated_at": "2026-11-23T01:00:19Z",
       "digest": "sha256:6224b1d4e221b3dcae1f198883ee998f16c824e518112e64189c5d1d376ed8d6",
       "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.4/webkit-autoloader-installer_v0.8.4.elf"
-    }
-  },
-  {
-    "name": "ps5-dump-forge",
-    "source": "https://github.com/quer3q/ps5-dump-forge/releases",
-    "description": "A toolkit for working with PS5 game dumps",
-    "category": "Utilities & Tools",
-    "asset_pattern": "^ps5-dump-forge-[^/]+-ps5\\.elf$",
-    "filename": "ps5-dump-forge_v0.5.7.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.7.elf",
-    "version": "v0.5.7",
-    "last_update": "2026-11-22",
-    "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.7/ps5-dump-forge-0.5.7-ps5.elf",
-    "checksum": "83a7e82a9070a671953d96e4acfc909697505281e4a023a2c6411316c2c1ce6c",
-    "payload_size": 18582608,
-    "source_asset": {
-      "release_id": 454608043,
-      "id": 779805571,
-      "name": "ps5-dump-forge-0.5.7-ps5.elf",
-      "size": 18582608,
-      "updated_at": "2026-11-22T17:09:31Z",
-      "digest": "sha256:83a7e82a9070a671953d96e4acfc909697505281e4a023a2c6411316c2c1ce6c",
-      "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.7/ps5-dump-forge-0.5.7-ps5.elf"
     }
   },
   {
