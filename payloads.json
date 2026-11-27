@@ -1,24 +1,24 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload_v12.6.42.elf",
-    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.42.elf",
+    "filename": "ps5upload_v12.6.43.elf",
+    "url": "https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.43.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.42/ps5upload-12.6.42.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.43/ps5upload-12.6.43.elf",
     "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
     "last_update": "2026-11-27",
-    "version": "v12.6.42",
+    "version": "v12.6.43",
     "category": "Networking & Servers",
-    "checksum": "f5aef27e0f605daa4f8e83702ea25c098e46ecf3fc6b51d99e46d27bf49777ac",
-    "payload_size": 12407408,
+    "checksum": "8b8bfc0fcdf74e92a6a0c1eb934ead27b94a4cb75f0ff09658a3b7d1cc599a7f",
+    "payload_size": 12462784,
     "source_asset": {
-      "release_id": 460675308,
-      "id": 800725165,
-      "name": "ps5upload-12.6.42.elf",
-      "size": 12407408,
-      "updated_at": "2026-11-27T14:04:36Z",
-      "digest": "sha256:f5aef27e0f605daa4f8e83702ea25c098e46ecf3fc6b51d99e46d27bf49777ac",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.42/ps5upload-12.6.42.elf"
+      "release_id": 461051863,
+      "id": 802009891,
+      "name": "ps5upload-12.6.43.elf",
+      "size": 12462784,
+      "updated_at": "2026-11-27T20:49:34Z",
+      "digest": "sha256:8b8bfc0fcdf74e92a6a0c1eb934ead27b94a4cb75f0ff09658a3b7d1cc599a7f",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.43/ps5upload-12.6.43.elf"
     }
   },
   {
