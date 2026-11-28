@@ -41,7 +41,7 @@ python add_payload.py --source https://github.com/OWNER/REPO --name NAME --asset
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v12.6.44` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-28` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.44.elf) |
+| **ps5upload** | `v12.6.45` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-11-28` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.45.elf) |
 | **zftpd** | `v1.7.1` | Zero-copy FTP/HTTP Server | `2026-11-27` | [Source](https://github.com/seregonwar/zftpd/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.7.1.elf) |
 | **kraken-mount** | `v0.4.2` | Mounts PS5 game dumps from PKG, folders, and compressed images. | `2026-11-27` | [Source](https://github.com/quer3q/kraken-mount/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/kraken-mount_v0.4.2.elf) |
 | **ps5-web-file-manager** | `v1.15` | A file manager for PS5 with a web UI | `2026-11-26` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/yanlong1989/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.15.elf) |
